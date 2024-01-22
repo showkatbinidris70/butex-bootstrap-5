@@ -1,0 +1,66 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul,
+ol,
+a,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body {
+  box-sizing: border-box;
+  background-color: var(--bg_white);
+}
+
+:root {
+  /* text color */
+  --text_white: #ffffff;
+  --text_mute-primary: #424242;
+  --text_mute-secondary: #999999;
+  --text_mute-third: #464646;
+  --text_green-primary: #0b9d9d;
+  --text_blue-primary: #003087;
+  --text_dark-secondary: #40474f;
+
+  /* bg-color */
+  --bg_white: #ffffff;
+  --bg_white-secondary: #f1f1f1;
+  --bg_white-third: #f7f7f7;
+  --bg_green-primary: #0b9d9d;
+  --bg_green-secondary: #0b9d9d;
+  --bg_green-third: #69b342;
+  --bg_green-forth: #f4faf6;
+  --bg_orange-secondary: #c84545;
+  --bg_blue-secondary: #15bef0;
+  --bg_blue-forth: #d9e6e6;
+  --bg_mute-third: #464646;
+}
+
+/* media query start */
+@media screen and (min-width: 768px) and (max-width: 1920px) {
+}
+@media screen and (min-width: 1200px) and (max-width: 1499.98px) {
+}
+@media screen and (min-width: 992px) and (max-width: 1199.98px) {
+}
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+}
+@media screen and (min-width: 576px) and (max-width: 767.98px) {
+}
+@media screen and (min-width: 376px) and (max-width: 575.98px) {
+}
+@media screen and (min-width: 320px) and (max-width: 375.98px) {
+}
