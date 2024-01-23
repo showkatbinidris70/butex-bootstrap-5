@@ -168,18 +168,14 @@ body {
   letter-spacing: 1.12px;
 }
 /* welcome-butex end */
-/* butext-notice start */
-.butext-notice {
+
+/* affiliated start */
+.affiliated-container {
+  background: rgba(197, 225, 225, 0.92);
+  padding: 27px 0 16px 0;
 }
-.butext-notice .butext-notice-bg-img {
-  background-color: rgba(43, 37, 5, 0.8);
-  background-image: url("/assets/images/butex-nitice-bg-img.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-.butext-notice .butext-notice-bg-img .title {
-  color: #f6f6f6;
+.affiliated-container .title {
+  color: #097c7c;
   text-align: center;
   text-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
   font-family: Almendra;
@@ -188,11 +184,35 @@ body {
   font-weight: 700;
   line-height: normal;
   letter-spacing: 4px;
+  padding-bottom: 26px;
 }
-.butext-notice .nav-link.active {
-  border-bottom: 2px solid red;
+.affiliated-card .card {
+  padding: 12px 0 16px 0;
+  flex-shrink: 0;
+  background: rgba(255, 255, 255, 0.68);
+  box-shadow: 4px 4px 4px 0px #097c7c;
+  border: 0;
+  border-radius: 0;
+  margin: 10px 10px;
 }
-/* butext-notice end */
+.affiliated-card .card img {
+  width: 50%;
+}
+.affiliated-card .card p {
+  color: #000;
+  text-align: center;
+  text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.25);
+  font-family: Almarai;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.4px;
+  padding: 0 14px;
+}
+
+/* affiliated end */
+
 /* footer start */
 .footer-container {
   background-image: url("/assets/images/footer-bg.png");
