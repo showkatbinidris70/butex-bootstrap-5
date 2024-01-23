@@ -101,7 +101,7 @@ body {
 .flash-news .flash-news-left {
   background-color: var(--bg_green-primary);
   color: #fff;
-  font-family: 'Inria Sans';
+  font-family: "Inria Sans";
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
@@ -122,7 +122,7 @@ body {
 .hero-section .carousel-inner .carousel-item .carousel-caption h5 {
   color: #c84545;
   text-align: center;
-  font-family: 'Inria Sans';
+  font-family: "Inria Sans";
   font-size: 28px;
   font-style: normal;
   font-weight: 700;
@@ -136,7 +136,7 @@ body {
   background-color: #fbfbfb;
 }
 .welcome-butex .butex-content {
-  background-image: url('/assets/images/welcome-butex.png');
+  background-image: url("/assets/images/welcome-butex.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -151,12 +151,16 @@ body {
   line-height: normal;
   letter-spacing: 4px;
 }
+.welcome-butex .butex-content .left img {
+  /* background: #0b9d9d; */
+  /* box-shadow: 5px 5px 4px 0px rgba(0, 0, 0, 0.25); */
+}
 .welcome-butex .butex-content .right {
   background: #d9e6e6;
   box-shadow: 5px 5px 7px 2px rgba(0, 0, 0, 0.25);
   color: #000;
   text-align: justify;
-  font-family: 'Aref Ruqaa';
+  font-family: "Aref Ruqaa";
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
@@ -164,9 +168,34 @@ body {
   letter-spacing: 1.12px;
 }
 /* welcome-butex end */
+/* butext-notice start */
+.butext-notice {
+}
+.butext-notice .butext-notice-bg-img {
+  background-color: rgba(43, 37, 5, 0.8);
+  background-image: url("/assets/images/butex-nitice-bg-img.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.butext-notice .butext-notice-bg-img .title {
+  color: #f6f6f6;
+  text-align: center;
+  text-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: Almendra;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 4px;
+}
+.butext-notice .nav-link.active {
+  border-bottom: 2px solid red;
+}
+/* butext-notice end */
 /* footer start */
 .footer-container {
-  background-image: url('/assets/images/footer-bg.png');
+  background-image: url("/assets/images/footer-bg.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
