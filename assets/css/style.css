@@ -168,7 +168,26 @@ body {
   letter-spacing: 1.12px;
 }
 /* welcome-butex end */
-
+.butext-notice {
+}
+.butext-notice .butext-notice-bg-img {
+  background-color: rgba(43, 37, 5, 0.8);
+  background-image: url("/assets/images/butex-nitice-bg-img.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.butext-notice .butext-notice-bg-img .title {
+  color: #f6f6f6;
+  text-align: center;
+  text-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: Almendra;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 4px;
+}
 /* affiliated start */
 .affiliated-container {
   background: rgba(197, 225, 225, 0.92);
