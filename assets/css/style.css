@@ -188,6 +188,103 @@ body {
   line-height: normal;
   letter-spacing: 4px;
 }
+/* mission-vission start */
+.mission-vission {
+  background-color: rgba(43, 37, 5, 0.8);
+  background-image: url("/assets/images/mission-vission.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.mission-vission .title {
+  color: #fff;
+  text-align: center;
+  text-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: Almendra;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 3px;
+}
+.mission-vission .message {
+  color: #fff;
+  text-align: justify;
+  font-family: "Aref Ruqaa";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 1.76px;
+  max-width: 250px;
+}
+/* mission-vission end */
+/* new-events start */
+.new-events {
+  background: rgba(219, 217, 217, 0.61);
+}
+.new-event {
+  box-shadow: 3px 4px 4px #097c7c;
+}
+.new-event-2 {
+  box-shadow: 3px 4px 4px #c84545;
+}
+.new-events .new-event .new-event-cell {
+  border: 1px solid #0a9090;
+}
+.new-events .new-event-2 .new-event-cell {
+  border: 1px solid #c84545;
+}
+.new-events .new-event .new-event-cell .calendar-icon {
+  background: url("/assets/icons/calendar.png"), lightgray 50% / cover no-repeat;
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+}
+.new-events .new-event .new-event-cell .date {
+  color: #000;
+  text-align: center;
+  text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.25);
+  font-family: Almarai;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: 1.4px;
+}
+.new-events .new-event .new-event-cell .message {
+  color: #000;
+  text-align: justify;
+  text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.25);
+  font-family: Almarai;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.4px;
+}
+.new-events .title {
+  color: #fff;
+  text-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: Almendra;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 3px;
+}
+.new-events .second-title {
+  color: #fff;
+  text-align: center;
+  text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.25);
+  font-family: Almarai;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: 1.5px;
+}
+/* new-events end */
 /* vc-message start */
 .vc-message {
 }
@@ -218,6 +315,16 @@ body {
   font-weight: 700;
   line-height: 20px; /* 125% */
   letter-spacing: 1.76px;
+}
+.vc-message .vc-message-bg-image .right .vc-name {
+  color: #fff;
+  text-align: center;
+  font-family: Calistoga;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 1.9px;
 }
 
 /* vc-message end */
