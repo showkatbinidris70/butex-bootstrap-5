@@ -140,6 +140,13 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.welcome-butex .butex-content .butex-circle-img {
+  left: 10%;
+  top: 5%;
+  box-shadow: 2px 2px 0px 1px #c84545;
+  border-radius: 50%;
+  background-color: #c84545;
+}
 .welcome-butex .butex-content .butex-title {
   color: #0a9090;
   text-align: center;
@@ -295,7 +302,27 @@ body {
   background-position: center;
   background-size: cover;
 }
-.vc-message .vc-message-bg-image .left .title {
+.vc-message .vc-message-bg-image p {
+  color: #fff;
+  text-align: justify;
+  font-family: "Aref Ruqaa";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 1.76px;
+}
+.vc-message .vc-message-bg-image .vc-name {
+  color: #fff;
+  text-align: center;
+  font-family: Calistoga;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 1.9px;
+}
+.vc-message .vc-message-bg-image .title {
   color: #fff;
   text-align: center;
   text-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
@@ -306,28 +333,20 @@ body {
   line-height: normal;
   letter-spacing: 4px;
 }
-.vc-message .vc-message-bg-image .left .message {
-  color: #fff;
-  text-align: justify;
-  font-family: "Aref Ruqaa";
-  font-size: 16px;
+/* vc-message end */
+/* campus-facilities start */
+.campus-facilities .title {
+  color: #c84545;
+  text-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: Almendra;
+  font-size: 40px;
   font-style: normal;
   font-weight: 700;
-  line-height: 20px; /* 125% */
-  letter-spacing: 1.76px;
-}
-.vc-message .vc-message-bg-image .right .vc-name {
-  color: #fff;
-  text-align: center;
-  font-family: Calistoga;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 20px;
-  letter-spacing: 1.9px;
+  line-height: normal;
+  letter-spacing: 4px;
 }
 
-/* vc-message end */
+/* campus-facilities end */
 /* affiliated start */
 .affiliated-container {
   background: rgba(197, 225, 225, 0.92);
@@ -439,12 +458,41 @@ body {
 @media screen and (min-width: 1200px) and (max-width: 1499.98px) {
 }
 @media screen and (min-width: 992px) and (max-width: 1199.98px) {
+  .welcome-butex .butex-content .butex-circle-img {
+    width: 90%;
+  }
 }
 @media screen and (min-width: 768px) and (max-width: 991.98px) {
+  .welcome-butex .butex-content .butex-circle-img {
+    width: 90%;
+  }
 }
 @media screen and (min-width: 576px) and (max-width: 767.98px) {
+  .welcome-butex .butex-content .butex-circle-img {
+    width: 90%;
+  }
+  .welcome-butex .butex-content .right p {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 20;
+    -webkit-box-orient: vertical;
+  }
+  .vc-message .vc-message-bg-image p {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 15;
+    -webkit-box-orient: vertical;
+  }
 }
 @media screen and (min-width: 376px) and (max-width: 575.98px) {
+  .welcome-butex .butex-content .butex-circle-img {
+    left: 10%;
+    width: 70%;
+  }
 }
 @media screen and (min-width: 320px) and (max-width: 375.98px) {
+  .welcome-butex .butex-content .butex-circle-img {
+    left: 1%;
+    width: 90%;
+  }
 }
