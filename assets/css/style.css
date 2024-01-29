@@ -23,7 +23,7 @@ h6 {
 
 body {
   box-sizing: border-box;
-  background-color: var(--bg_white);
+  background-color: rgba(219, 217, 217, 0.61);
 }
 
 :root {
@@ -117,6 +117,15 @@ body {
   font-weight: 700;
   line-height: 20px;
 }
+.navbar-nav .nav-item .nav-link {
+  color: #000;
+  font-family: Inter;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
 /* header end */
 /* hero-section start */
 .hero-section .carousel-inner .carousel-item .carousel-caption h5 {
@@ -133,12 +142,13 @@ body {
 /* hero-section end */
 /* welcome-butex start */
 .welcome-butex {
-  background-color: #fbfbfb;
+  /* background-color: #fbfbfb; */
 }
 .welcome-butex .butex-content {
   background-image: url("/assets/images/welcome-butex.png");
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: #fbfbfb;
 }
 .welcome-butex .butex-content .butex-circle-img {
   left: 10%;
@@ -347,6 +357,204 @@ body {
 }
 
 /* campus-facilities end */
+/* butext-prospectus start */
+.butext-prospectus {
+}
+.butext-prospectus .butext-prospectus-title {
+  color: #fff;
+  text-align: center;
+  text-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: Almendra;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 4px;
+  background: #c84545;
+  border-bottom: 2px solid white;
+}
+.butext-prospectus .card-title {
+  color: #fff;
+  text-align: center;
+  text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.25);
+  font-family: Almarai;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.6px;
+}
+
+@media (max-width: 767px) {
+  .carousel-inner .carousel-item > div {
+    display: none;
+  }
+  .carousel-inner .carousel-item > div:first-child {
+    display: block;
+  }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+  display: flex;
+}
+
+/* medium and up screens */
+@media (min-width: 768px) {
+  .carousel-inner .carousel-item-end.active,
+  .carousel-inner .carousel-item-next {
+    transform: translateX(25%);
+  }
+
+  .carousel-inner .carousel-item-start.active,
+  .carousel-inner .carousel-item-prev {
+    transform: translateX(-25%);
+  }
+}
+
+.carousel-inner .carousel-item-end,
+.carousel-inner .carousel-item-start {
+  transform: translateX(0);
+}
+
+/* butext-prospectus end */
+/* department-section start */
+.department-section {
+  background-color: rgba(43, 37, 5, 0.8);
+  background-image: url("/assets/images/department-bg-img.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.department-section .department-section-card {
+  /* border: 0px solid #000; */
+  /* box-shadow: 3px 3px 4px 0px #0b9d9d; */
+  /* border-right: 3px solid #0b9d9d;
+  border-bottom: 3px solid #0b9d9d; */
+
+  border: 0px solid #000;
+  background: url("/assets/images/department-bg-img.png"),
+    lightgray 50% / cover no-repeat;
+  box-shadow: 3px 3px 4px 0px #0b9d9d;
+}
+.department-section .department-section-card .card-body .card-title {
+  color: #fff;
+  text-align: center;
+  text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.25);
+  font-family: Almarai;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.6px;
+}
+.department-section .department-section-card .card-body .card-text {
+  color: #fff;
+  text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.25);
+  font-family: Almarai;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.4px;
+}
+.department-section .department-section-card .card-body .btn {
+  color: #fff;
+  text-align: center;
+  text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.25);
+  font-family: Almarai;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: 1.4px;
+}
+/* department-section end */
+/* academic calender start */
+.calender-container .title {
+  background-color: #c84545;
+  color: #fff;
+  padding: 15px 0;
+  font-family: Almendra;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 39px;
+  letter-spacing: 0.1em;
+  padding-left: 10px;
+}
+.calender-container .calender {
+  background-image: url("/assets/images/Rectangle\ 97.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 546px;
+  background-size: 100%;
+  padding: 15px 0;
+}
+.calender-container .calender .date-container {
+  height: 105px;
+  background-color: #fff9f9;
+  box-shadow: 5px 5px 4px 0px #000000;
+  margin: 0 22px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+.calender-container .calender .date-container .date {
+  padding: 15px;
+}
+.calender-container .calender .date-container .date p {
+  font-family: Almarai;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.1em;
+}
+.calender-container .calender .date-container .view {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 31% 100%);
+  background-color: #097c7c;
+  width: 95px;
+  height: 105px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.calender-container .calender .date-container .view p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+.map-container .title h2 {
+  font-family: Almendra;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 0.1em;
+  color: #0b5050;
+  border-bottom: 5px solid #0b5050;
+  display: inline-block;
+  padding-bottom: 2px;
+}
+.map-container .title {
+  text-align: center;
+  margin-bottom: 3px;
+}
+.map-container .map {
+  background-image: url("/assets/images/Rectangle\ 98.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  height: 546px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.map-container .map img {
+  width: 80%;
+}
+/* academic calender end */
 /* affiliated start */
 .affiliated-container {
   background: rgba(197, 225, 225, 0.92);
@@ -362,7 +570,6 @@ body {
   font-weight: 700;
   line-height: normal;
   letter-spacing: 4px;
-  padding-bottom: 26px;
 }
 .affiliated-card .card {
   padding: 12px 0 16px 0;
@@ -387,6 +594,31 @@ body {
   line-height: normal;
   letter-spacing: 1.4px;
   padding: 0 14px;
+}
+.affiliated-card .card-btn {
+  display: flex;
+  justify-content: center;
+}
+.affiliated-card .card-btn a {
+  width: 120px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  background-color: #0b5050;
+  color: #fff;
+  font-family: Almarai;
+  font-size: 15px;
+  font-weight: 800;
+  line-height: 17px;
+  letter-spacing: 0.1em;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 25px;
+}
+.affiliated-card .card-btn a:hover {
+  color: #fff;
 }
 
 /* affiliated end */
@@ -496,4 +728,3 @@ body {
     width: 90%;
   }
 }
-
