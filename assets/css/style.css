@@ -446,7 +446,6 @@ body {
   font-weight: 700;
   line-height: normal;
   letter-spacing: 4px;
-  padding-bottom: 26px;
 }
 .affiliated-card .card {
   padding: 12px 0 16px 0;
@@ -471,6 +470,31 @@ body {
   line-height: normal;
   letter-spacing: 1.4px;
   padding: 0 14px;
+}
+.affiliated-card .card-btn {
+  display: flex;
+  justify-content: center;
+}
+.affiliated-card .card-btn a {
+  width: 120px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  background-color: #0b5050;
+  color: #fff;
+  font-family: Almarai;
+  font-size: 15px;
+  font-weight: 800;
+  line-height: 17px;
+  letter-spacing: 0.1em;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 25px;
+}
+.affiliated-card .card-btn a:hover {
+  color: #fff;
 }
 
 /* affiliated end */
