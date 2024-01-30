@@ -32,7 +32,34 @@
     <link rel="icon" type="image/x-icon" href="./assets/icons/favicon.ico">
     <title>Bangladesh Railway Police</title>
     <style type="text/css">
-       
+        .topnav-bar .left {
+            clip-path: polygon(0 0, 90% 0, 100% 100%, 0% 100%);
+            background-color: #C84545;
+        }
+
+        .topnav-bar .left h5 {
+            color: #FFF;
+            font-family: Inter;
+            font-size: 10px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+
+        .topnav-bar .left h6 {
+            color: #FFF;
+            font-family: Inter;
+            font-size: 10px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+
+        .topnav-bar .right {
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 7% 100%);
+            background-color: #0A9090;
+            margin-left: -10% !important;
+        }
     </style>
 
 
@@ -40,11 +67,40 @@
 
 <body>
     <header>
-        <div class="topnav text-white">
+        <div class="topnav-bar" style="background-color: #0A9090;">
+            <div class="container bg-white px-0">
+                <div class="row" style="margin-left: 0.0rem;">
+                    <div class="col-sm-12 col-md-12 col-lg-5 px-0">
+                        <div class="left" style="border-bottom: 5px solid #0A9090;">
+                            <div class="px-4 py-3 border-bottom border-5 border-white pb-2">
+                                <h5>Helpline: +8801500121121, +8801554926220</h5>
+                                <h6>Email: info@butex.edu.bd</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-12 col-lg-7 px-0">
+                        <div class="right d-flex justify-content-center py-1">
+                            <div class="px-4 py-3 d-none d-lg-block">
+                                <ul class="d-flex gap-2 gap-xxl-3 align-items-center">
+                                    <li><a href="#" class="text-white">Webmail</a></li>
+                                    <li><a href="#" class="text-white">Career</a></li>
+                                    <li><a href="#" class="text-white">Contact</a></li>
+                                    <li><a href="#" class="text-white">Suggestion</a></li>
+                                    <li><a href="#" class="text-white">NOC</a></li>
+                                    <li><a href="#" class="text-white">Download</a></li>
+                                    <li><a href="#" class="text-white">Admission</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="topnav text-white d-none">
             <div class="container">
                 <div class="topnav-bg-color">
                     <div class="row">
-                        <div class="col-sm-6 col-md-5 topnav-left">
+                        <div class="col-sm-6 col-md-5 topnav-left mb-2 border-bottom border-5 border-white">
                             <div class="px-4 py-3">
                                 <h5>Helpline: +8801500121121, +8801554926220</h5>
                                 <h6>Email: info@butex.edu.bd</h6>
@@ -67,21 +123,29 @@
                 </div>
             </div>
         </div>
-        <div class="container d-none" style="background-color:#FBFBFB;">
+        <div class="container" style="background-color:#FBFBFB;">
             <div class="row">
-                <div class="d-flex justify-content-between">
-                    <div> <a class="navbar-brand" href="#"><img src="/assets/icons/image 1.png" class="img-fluid" /></a>
-                    </div>
-                    <div>
-                        <nav class="navbar navbar-expand-lg navbar-light">
-                            <div class="container-fluid">
-                                <div class="d-flex">
-                                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                                        aria-expanded="false" aria-label="Toggle navigation">
-                                        <span class="navbar-toggler-icon"></span>
-                                    </button>
+                <nav class="navbar navbar-expand-lg navbar-light d-lg-none">
+                    <div class="">
+                        <div class="d-flex">
+                            <a class="navbar-brand" href="#"><img src="/assets/icons/image 1.png"
+                                    class="img-fluid" /></a>
+                            <button class="navbar-toggler navbar-toggler-btn" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                        </div>
+                        <div>
+                            <div class="mb-3 d-none">
+                                <div class="d-flex justify-content-center h-100">
+                                    <div class="search">
+                                        <input class="search_input" type="text" name="" placeholder="Search here...">
+                                        <a href="#" class="search_icon"><i class="fa fa-search"></i></a>
+                                    </div>
                                 </div>
+                            </div>
+                            <div class="">
                                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                                         <li class="nav-item">
@@ -105,14 +169,10 @@
                                     </ul>
                                 </div>
                             </div>
-                        </nav>
+                        </div>
                     </div>
-                </div>
-            </div>
-        </div>
-        <div class="container" style="background-color:#FBFBFB;">
-            <div class="row">
-                <nav class="navbar navbar-expand-lg navbar-light">
+                </nav>
+                <nav class="navbar navbar-expand-lg navbar-light d-none d-lg-block">
                     <div class="container-fluid">
                         <div class="d-flex">
                             <a class="navbar-brand" href="#"><img src="/assets/icons/image 1.png"
@@ -123,27 +183,88 @@
                                 <span class="navbar-toggler-icon"></span>
                             </button>
                         </div>
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                                <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="#">About</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">ACADEMICS</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">ADMINISTRATION</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">ON CAMPUS</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">ANNOUNCEMENT</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">PUBLICATIONS</a>
-                                </li>
-                            </ul>
+                        <div>
+                            <div class="mb-3">
+                                <div class="d-flex justify-content-end">
+                                    <div class="search position-relative">
+                                        <input class="search_input" type="text" name="">
+                                        <a href="#" class="search_icon" style="margin-left: -1.5rem;"><img
+                                                src="/assets/icons/search-icon.png" class="img-fluid" alt=""
+                                                srcset=""></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="">
+                                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                                        <li class="nav-item">
+                                            <a class="nav-link active" aria-current="page" href="#">About</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">ACADEMICS</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">ADMINISTRATION</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">ON CAMPUS</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">ANNOUNCEMENT</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">PUBLICATIONS</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div class="container d-none" style="background-color:#FBFBFB;">
+            <div class="row">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <div class="container-fluid">
+                        <div class="d-flex">
+                            <a class="navbar-brand" href="#"><img src="/assets/icons/image 1.png"
+                                    class="img-fluid" /></a>
+                            <button class="navbar-toggler d-none" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                        </div>
+                        <div>
+                            <div class="mb-3 d-none d-lg-block">
+                                <input type="text" class="form-control" id="formGroupExampleInput"
+                                    placeholder="Example input placeholder">
+                            </div>
+                            <div class="">
+                                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                                        <li class="nav-item">
+                                            <a class="nav-link active" aria-current="page" href="#">About</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">ACADEMICS</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">ADMINISTRATION</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">ON CAMPUS</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">ANNOUNCEMENT</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">PUBLICATIONS</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </nav>
@@ -978,7 +1099,33 @@
                             <div class="col-md-3">
                                 <div class="card m-2 border-0">
                                     <div class="card-img">
-                                        <img src="/assets/images/campus-facilities-img-1.png" class="img-fluid w-100">
+                                        <img src="/assets/images/campus-facilities-img-2.png" class="img-fluid w-100">
+                                    </div>
+                                    <div
+                                        class="card-img-overlay position-absolute  d-flex align-items-end justify-content-end">
+                                        <p class="px-3 py-2 rounded"> LIBRARY</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="col-md-3">
+                                <div class="card m-2 border-0">
+                                    <div class="card-img">
+                                        <img src="/assets/images/campus-facilities-img-3.png" class="img-fluid w-100">
+                                    </div>
+                                    <div
+                                        class="card-img-overlay position-absolute  d-flex align-items-end justify-content-end">
+                                        <p class="px-3 py-2 rounded"> LIBRARY</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="col-md-3">
+                                <div class="card m-2 border-0">
+                                    <div class="card-img">
+                                        <img src="/assets/images/campus-facilities-img-4.png" class="img-fluid w-100">
                                     </div>
                                     <div
                                         class="card-img-overlay position-absolute  d-flex align-items-end justify-content-end">
@@ -1004,33 +1151,7 @@
                             <div class="col-md-3">
                                 <div class="card m-2 border-0">
                                     <div class="card-img">
-                                        <img src="/assets/images/campus-facilities-img-1.png" class="img-fluid w-100">
-                                    </div>
-                                    <div
-                                        class="card-img-overlay position-absolute  d-flex align-items-end justify-content-end">
-                                        <p class="px-3 py-2 rounded"> LIBRARY</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="col-md-3">
-                                <div class="card m-2 border-0">
-                                    <div class="card-img">
-                                        <img src="/assets/images/campus-facilities-img-1.png" class="img-fluid w-100">
-                                    </div>
-                                    <div
-                                        class="card-img-overlay position-absolute  d-flex align-items-end justify-content-end">
-                                        <p class="px-3 py-2 rounded"> LIBRARY</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="col-md-3">
-                                <div class="card m-2 border-0">
-                                    <div class="card-img">
-                                        <img src="/assets/images/campus-facilities-img-1.png" class="img-fluid w-100">
+                                        <img src="/assets/images/campus-facilities-img-2.png" class="img-fluid w-100">
                                     </div>
                                     <div
                                         class="card-img-overlay position-absolute  d-flex align-items-end justify-content-end">
