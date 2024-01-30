@@ -345,8 +345,10 @@ body {
 }
 /* vc-message end */
 /* campus-facilities start */
+
 .campus-facilities .title {
   color: #c84545;
+  text-align: center;
   text-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
   font-family: Almendra;
   font-size: 40px;
@@ -354,6 +356,18 @@ body {
   font-weight: 700;
   line-height: normal;
   letter-spacing: 4px;
+}
+.campus-facilities .card p {
+  background: rgba(16, 120, 120, 0.9);
+  color: #fff;
+  text-align: center;
+  text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.25);
+  font-family: Almarai;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: 1.4px;
 }
 
 /* campus-facilities end */
@@ -385,6 +399,43 @@ body {
   letter-spacing: 1.6px;
 }
 
+button {
+  margin: 0;
+  padding: 0;
+  background: none;
+  border: none;
+  border-radius: 0;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.slide-arrow {
+  position: absolute;
+  top: 50%;
+  margin-top: -15px;
+}
+
+.prev-arrow {
+  left: -20px;
+  width: 0;
+  height: 0;
+  border-left: 0 solid transparent;
+  border-right: 15px solid #0a9090;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+}
+
+.next-arrow {
+  right: -20px;
+  width: 0;
+  height: 0;
+  border-right: 0 solid transparent;
+  border-left: 15px solid #0a9090;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+}
 @media (max-width: 767px) {
   .carousel-inner .carousel-item > div {
     display: none;
