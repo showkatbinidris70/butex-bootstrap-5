@@ -423,9 +423,7 @@ a:link {
 
 /* campus-facilities end */
 /* butext-prospectus start */
-.butext-prospectus {
-}
-.butext-prospectus .butext-prospectus-title {
+.butex-prospectus-title {
   color: #fff;
   text-align: center;
   text-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
@@ -438,7 +436,7 @@ a:link {
   background: #c84545;
   border-bottom: 2px solid white;
 }
-.butext-prospectus .card-title {
+.butex-prospectus .card-title {
   color: #fff;
   text-align: center;
   text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.25);
@@ -450,7 +448,7 @@ a:link {
   letter-spacing: 1.6px;
 }
 
-button {
+.butex-prospectus button {
   margin: 0;
   padding: 0;
   background: none;
@@ -462,14 +460,14 @@ button {
   appearance: none;
 }
 
-.slide-arrow {
+.butex-prospectus .slide-arrow {
   position: absolute;
   top: 50%;
   margin-top: -15px;
 }
 
-.prev-arrow {
-  left: -20px;
+.butex-prospectus .prev-arrow {
+  left: 20px;
   width: 0;
   height: 0;
   border-left: 0 solid transparent;
@@ -478,8 +476,8 @@ button {
   border-bottom: 10px solid transparent;
 }
 
-.next-arrow {
-  right: -20px;
+.butex-prospectus .next-arrow {
+  right: 20px;
   width: 0;
   height: 0;
   border-right: 0 solid transparent;
@@ -573,6 +571,45 @@ button {
   letter-spacing: 1.4px;
 }
 /* department-section end */
+/* butext-counter start */
+.butex-counter button {
+  margin: 0;
+  padding: 0;
+  background: none;
+  border: none;
+  border-radius: 0;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.butex-counter .slide-arrow {
+  position: absolute;
+  top: 50%;
+  margin-top: -15px;
+}
+
+.butex-counter .prev-arrow {
+  left: 20px;
+  width: 0;
+  height: 0;
+  border-left: 0 solid transparent;
+  border-right: 15px solid #0a9090;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+}
+
+.butex-counter .next-arrow {
+  right: 20px;
+  width: 0;
+  height: 0;
+  border-right: 0 solid transparent;
+  border-left: 15px solid #0a9090;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+}
+/* butext-counter end */
 /* academic calender start */
 .calender-container .title {
   background-color: #c84545;

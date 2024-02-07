@@ -44,6 +44,52 @@ $(document).ready(function () {
   });
 });
 // slick slider department-slider start
+// slick slider butext-counter-slider start
+$(document).ready(function () {
+  $(".butex-counter-slider").slick({
+    autoplay: true,
+    arrows: true,
+    dots: false,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    prevArrow: '<button class="slide-arrow prev-arrow"></button>',
+    nextArrow: '<button class="slide-arrow next-arrow"></button>',
+
+    responsive: [
+      {
+        breakpoint: 574,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 575,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 767,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 991,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+        },
+      },
+    ],
+  });
+});
+// slick slider department-slider start
 $(document).ready(function () {
   $(".department-slider").slick({
     autoplay: true,
