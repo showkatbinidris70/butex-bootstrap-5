@@ -132,6 +132,49 @@ $(document).ready(function () {
     ],
   });
 });
+// list-of-departments-slider start
+$(document).ready(function () {
+  $(".list-of-departments-slider").slick({
+    autoplay: true,
+    arrows: false,
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+
+    responsive: [
+      {
+        breakpoint: 574,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 575,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 767,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 991,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+        },
+      },
+    ],
+  });
+});
 
 // butext
 let items = document.querySelectorAll(

@@ -235,12 +235,12 @@ a:link {
   width: 21%;
 }
 .butext-notice .butext-notice-bg-img {
-  background-color: rgba(43, 37, 5, 0.8);
+  background-color: rgba(43, 37, 5, 0.9);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   min-height: 100%;
-  background: url("/assets/images/butex-nitice-bg-img.png") rgba(43, 37, 5, 0.8);
+  background: url("/assets/images/butex-nitice-bg-img.png") rgb(43, 37, 5, 0.9);
   background-size: cover;
   background-blend-mode: multiply;
 }
@@ -365,12 +365,13 @@ a:link {
 .vc-message .vc-message-bg-image p {
   color: #fff;
   text-align: justify;
-  font-family: "Aref Ruqaa";
-  font-size: 16px;
   font-style: normal;
-  font-weight: 700;
+  font-family: Calistoga;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
   line-height: 20px;
-  letter-spacing: 1.76px;
+  letter-spacing: 1.9px;
 }
 
 .vc-message .vc-message-bg-image .vc-name {
@@ -822,6 +823,29 @@ a:link {
   align-items: center;
 }
 /* footer end */
+/* faculty start */
+.faculty .top-nav {
+  background-color: #c84545;
+  border-bottom: 5px solid #0b9d9d;
+}
+.faculty .about-section {
+  background-image: url("/assets/images/Rectangle-119.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.faculty .about-section .btn{
+  color: #fff;
+  text-align: center;
+  text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.25);
+  font-family: Almarai;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: 1.4px;
+}
+/* faculty end */
 /* media query start */
 @media screen and (min-width: 768px) and (max-width: 1920px) {
   .vc-message .vc-message-bg-image .vc-photo-and-name {
