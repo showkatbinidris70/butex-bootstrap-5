@@ -824,28 +824,70 @@ a:link {
 }
 /* footer end */
 /* faculty start */
-.faculty .top-nav {
-  background-color: #c84545;
-  border-bottom: 5px solid #0b9d9d;
+/* ------------------ */
+.faculty-members {
+  background-color: #d9d9d9;
 }
-.faculty .about-section {
-  background-image: url("/assets/images/Rectangle-119.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-.faculty .about-section .btn{
-  color: #fff;
-  text-align: center;
-  text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.25);
-  font-family: Almarai;
-  font-size: 14px;
+.faculty-members .title {
+  font-family: Almendra;
+  font-size: 40px;
   font-style: normal;
-  font-weight: 800;
+  font-weight: 700;
   line-height: normal;
-  letter-spacing: 1.4px;
+  letter-spacing: 4px;
+  color: #0a9090;
+  border-bottom: 5px solid #0A9090; max-width: 400px;
+}
+.faculty-members .title:hover {
+  color: #0a9090a8;
+}
+.faculty-members h3 {
+  color: #f0e70a;
+  text-align: center;
+  font-family: Calistoga;
+  font-sirgba(10, 144, 144, 0.568)x;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 1.9px;
+}
+.faculty-members h3:hover {
+  color: #f0e70aa8;
+}
+.faculty-members h4 {
+  color: #ffffff;
+  text-align: center;
+  font-family: Calistoga;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 1.2px;
+}
+.faculty-members h4:hover {
+  color: #ffffffa9;
+}
+.faculty-members .faculty-members-image{
+  width: 220px; 
+  height: 220px; 
+  border: 5px solid #0A9090;
 }
 /* faculty end */
+/* faculty-gallery start */
+.faculty-gallery .title {
+  font-family: Almendra;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 4px;
+  color: #c84545;
+  border-bottom: 5px solid #c84545; max-width: 400px;
+}
+.faculty-gallery .title:hover {
+  color: #c84545a9;
+}
+/* faculty-gallery end */
 /* media query start */
 @media screen and (min-width: 768px) and (max-width: 1920px) {
   .vc-message .vc-message-bg-image .vc-photo-and-name {
@@ -911,6 +953,10 @@ a:link {
     margin: 10px;
     width: 45%;
   }
+  .faculty-members .faculty-members-image{
+    width: 180px; 
+    height: 180px; 
+  }
 }
 @media screen and (min-width: 376px) and (max-width: 575.98px) {
   .welcome-butex .butex-content .butex-circle-img {
@@ -933,6 +979,13 @@ a:link {
   .butext-notice .butext-notice-middle-li-width {
     width: 100%;
   }
+  .faculty-members .title {
+    font-size: 30px;
+  }
+  .faculty-gallery .title {
+    font-size: 30px;
+  }
+
 }
 @media screen and (min-width: 320px) and (max-width: 375.98px) {
   .welcome-butex .butex-content .butex-circle-img {
@@ -951,5 +1004,11 @@ a:link {
   }
   .butext-notice .butext-notice-middle-li-width {
     width: 100%;
+  }
+  .faculty-members .title {
+    font-size: 30px;
+  }
+  .faculty-gallery .title {
+    font-size: 30px;
   }
 }
