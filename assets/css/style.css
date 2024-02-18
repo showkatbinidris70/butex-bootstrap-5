@@ -887,6 +887,63 @@ a:link {
 .faculty-gallery .title:hover {
   color: #c84545a9;
 }
+.faculty-gallery .nav-link {
+  color: #c84545;
+}
+.faculty-gallery .nav-link.active {
+  background-color: #c84545;
+color: #fff;
+}
+.faculty-gallery .faculty-gallery-image{
+
+}
+button {
+  margin: 0;
+  padding: 0;
+  background: none;
+  border: none;
+  border-radius: 0;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.slide-arrow {
+  position: absolute;
+  top: 50%;
+  margin-top: -15px;
+}
+
+.prev-arrow {
+  left: -30px;
+  width: 50px;
+  height: 50px;
+  background-image: url('/assets/images/Rectangle-159.png');
+  background-repeat: no-repeat;
+}
+
+.next-arrow {
+  right: -30px;
+  width: 50px;
+  height: 50px;
+  background-image: url('/assets/images/Rectangle-96.png');
+  background-repeat: no-repeat;
+}
+
+.image-overlay {
+  background-color: rgba(7, 39, 223, 0.2);
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: none;
+}
+
+.image:hover .image-overlay {
+  display: block;
+  border-radius: 20px;
+}
 /* faculty-gallery end */
 /* media query start */
 @media screen and (min-width: 768px) and (max-width: 1920px) {
