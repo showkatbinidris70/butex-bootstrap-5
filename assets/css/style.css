@@ -824,6 +824,40 @@ a:link {
 }
 /* footer end */
 /* faculty start */
+/* faculty-about-section start */
+.faculty-about-section{
+  background-color: rgba(255, 255, 255, 0.3);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 100%;
+  background: url("/assets/images/Rectangle-119.png") rgba(255, 255, 255, 0.3);
+  background-size: cover;
+  background-blend-mode: multiply;
+}
+/* faculty-about-section end */
+/* list-of-departments start */
+.list-of-departments{  
+  background-color: rgba(255, 255, 255, 0.3);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 100%;
+  background: url("/assets/images/Rectangle-120.png") rgba(255, 255, 255, 0.3);
+  background-size: cover;
+  background-blend-mode: multiply;
+}
+.list-of-departments .title {
+  font-family: Almendra;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 4px;
+  color: #078484;
+  border-bottom: 5px solid #078484;
+}
+/* list-of-departments end */
 /* ------------------ */
 .faculty-members {
   background-color: #d9d9d9;
@@ -932,7 +966,7 @@ button {
 }
 
 .image-overlay {
-  background-color: rgba(7, 39, 223, 0.2);
+  background-color: #c2ddb465;
   left: 0;
   right: 0;
   top: 0;
@@ -945,6 +979,21 @@ button {
   border-radius: 20px;
 }
 /* faculty-gallery end */
+/* faculty-footer start */
+.faculty-footer .faculty-footer-top{
+  background-color: #0CA3A3;
+  height: 30px;
+}
+.faculty-footer .faculty-footer-main{
+  background-color: #C84545;
+}
+.faculty-footer .faculty-footer-main ul li:first-child{
+font-size: 29px;
+}
+.faculty-footer .faculty-footer-bottom{
+  background-color: #A33C3C;
+}
+/* faculty-footer end */
 /* media query start */
 @media screen and (min-width: 768px) and (max-width: 1920px) {
   .vc-message .vc-message-bg-image .vc-photo-and-name {
