@@ -858,6 +858,52 @@ a:link {
   border-bottom: 5px solid #078484;
 }
 /* list-of-departments end */
+/* recent-news-notice-events start */
+.recent-news-notice-events{
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 100%;
+  background: url("/assets/images/Rectangle-139.png");
+}
+.recent-news-notice-events .recent-news .title{
+  font-family: Almendra;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 4px;
+  color: #c84545;
+  border-bottom: 5px solid #c84545; 
+  max-width: 400px;
+}
+.recent-news-notice-events .recent-news .card{
+  border-bottom: 3px solid #0A9090; border-right: 3px solid #0A9090;
+}
+.recent-news-notice-events .recent-news .card img{
+  max-width: 871px;
+  max-height: 337px;
+}
+.recent-news-notice-events .recent-notice-and-events .notice-board .title{
+  font-family: Almendra;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 4px;
+  color: #fff;
+  border-bottom: 5px solid #fff; 
+  max-width: 400px;
+}
+.recent-news-notice-events .recent-notice-and-events .notice-board .nav-link {
+  color: #fff;
+}
+.recent-news-notice-events .recent-notice-and-events .notice-board .nav-link.active {
+  background-color: #F0E70A;
+  color: #c84545;
+}
+.recent-news-notice-events .recent-notice-and-events .recent-events{}
+/* recent-news-notice-events end */
 /* ------------------ */
 .faculty-members {
   background-color: #d9d9d9;

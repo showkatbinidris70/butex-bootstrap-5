@@ -222,6 +222,18 @@ $(document).ready(function () {
   });
 });
 
+// vertical slider start
+$(".slick", ".vertical-slider").slick({
+  vertical: true,
+  verticalSwiping: true,
+  autoplay: true,
+  autoplaySpeed: 5000,
+  slidesToShow: 5,
+  slidesToScroll: 1,
+  prevArrow: $(".prev"),
+  nextArrow: $(".next"),
+});
+// vertical slider end
 // butext
 let items = document.querySelectorAll(
   ".carousel-butex-prospectus .carousel-item"
