@@ -903,6 +903,17 @@ a:link {
   color: #c84545;
 }
 .recent-news-notice-events .recent-notice-and-events .recent-events{}
+.recent-news-notice-events .recent-notice-and-events .recent-events .title{
+  font-family: Almendra;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 4px;
+  color: #fff;
+  border-bottom: 5px solid #fff; 
+  max-width: 400px;
+}
 /* recent-news-notice-events end */
 /* ------------------ */
 .faculty-members {

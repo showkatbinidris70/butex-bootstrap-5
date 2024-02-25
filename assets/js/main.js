@@ -234,6 +234,41 @@ $(".slick", ".vertical-slider").slick({
   nextArrow: $(".next"),
 });
 // vertical slider end
+// vertical slider start
+$(".slick", ".recent-news-slider").slick({
+  vertical: true,
+  verticalSwiping: true,
+  autoplay: true,
+  autoplaySpeed: 5000,
+  slidesToShow: 5,
+  slidesToScroll: 1,
+  prevArrow: $(".prev"),
+  nextArrow: $(".next"),
+});
+// vertical slider end
+$(".slick", ".recent-events-slider").slick({
+  vertical: true,
+  verticalSwiping: true,
+  autoplay: true,
+  autoplaySpeed: 5000,
+  slidesToShow: 5,
+  slidesToScroll: 1,
+  prevArrow: $(".prev"),
+  nextArrow: $(".next"),
+});
+// vertical slider end
+// vertical slider start
+$(".slick", ".notice-board-slider").slick({
+  vertical: true,
+  verticalSwiping: true,
+  autoplay: true,
+  autoplaySpeed: 5000,
+  slidesToShow: 5,
+  slidesToScroll: 1,
+  prevArrow: $(".prev"),
+  nextArrow: $(".next"),
+});
+// vertical slider end
 // butext
 let items = document.querySelectorAll(
   ".carousel-butex-prospectus .carousel-item"
