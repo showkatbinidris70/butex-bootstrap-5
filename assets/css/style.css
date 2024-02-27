@@ -226,8 +226,6 @@ a:link {
   letter-spacing: 1.12px;
 }
 /* welcome-butex end */
-.butext-notice {
-}
 .butext-notice .butext-notice-first-last-li-width {
   width: 16.5%;
 }
@@ -353,8 +351,6 @@ a:link {
 }
 /* new-events end */
 /* vc-message start */
-.vc-message {
-}
 .vc-message .vc-message-bg-image {
   background-color: rgba(43, 37, 5, 0.8);
   background-image: url("/assets/images/vc-message-bg-img.png");
@@ -373,7 +369,6 @@ a:link {
   line-height: 20px;
   letter-spacing: 1.9px;
 }
-
 .vc-message .vc-message-bg-image .vc-name {
   color: #fff;
   text-align: center;
@@ -397,7 +392,6 @@ a:link {
 }
 /* vc-message end */
 /* campus-facilities start */
-
 .campus-facilities .title {
   color: #c84545;
   text-align: center;
@@ -421,7 +415,6 @@ a:link {
   line-height: normal;
   letter-spacing: 1.4px;
 }
-
 /* campus-facilities end */
 /* butext-prospectus start */
 .butex-prospectus-title {
@@ -448,7 +441,6 @@ a:link {
   line-height: normal;
   letter-spacing: 1.6px;
 }
-
 .butex-prospectus button {
   margin: 0;
   padding: 0;
@@ -460,13 +452,11 @@ a:link {
   -moz-appearance: none;
   appearance: none;
 }
-
 .butex-prospectus .slide-arrow {
   position: absolute;
   top: 50%;
   margin-top: -15px;
 }
-
 .butex-prospectus .prev-arrow {
   left: 20px;
   width: 0;
@@ -476,7 +466,6 @@ a:link {
   border-top: 10px solid transparent;
   border-bottom: 10px solid transparent;
 }
-
 .butex-prospectus .next-arrow {
   right: 20px;
   width: 0;
@@ -533,7 +522,6 @@ a:link {
   /* box-shadow: 3px 3px 4px 0px #0b9d9d; */
   /* border-right: 3px solid #0b9d9d;
   border-bottom: 3px solid #0b9d9d; */
-
   border: 0px solid #000;
   background: url("/assets/images/department-bg-img.png"),
     lightgray 50% / cover no-repeat;
@@ -584,13 +572,11 @@ a:link {
   -moz-appearance: none;
   appearance: none;
 }
-
 .butex-counter .slide-arrow {
   position: absolute;
   top: 50%;
   margin-top: -15px;
 }
-
 .butex-counter .prev-arrow {
   left: 20px;
   width: 0;
@@ -600,7 +586,6 @@ a:link {
   border-top: 10px solid transparent;
   border-bottom: 10px solid transparent;
 }
-
 .butex-counter .next-arrow {
   right: 20px;
   width: 0;
@@ -760,9 +745,7 @@ a:link {
 .affiliated-card .card-btn a:hover {
   color: #fff;
 }
-
 /* affiliated end */
-
 /* footer start */
 .footer-container {
   background-image: url("/assets/images/footer-bg.png");
@@ -835,6 +818,40 @@ a:link {
   background-size: cover;
   background-blend-mode: multiply;
 }
+.faculty-about-section .about h2{
+  font-family: almendra;
+  font-size: 40px;
+  font-weight: bold;
+  -webkit-line-clamp: 2;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.faculty-about-section .about p{
+  font-family: Inter; 
+  text-align: justify; 
+  text-justify: inter-word;
+  -webkit-line-clamp: 7;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.faculty-about-section .person{
+  margin-top: -7rem;
+}
+.faculty-about-section .person h2{
+  color: #F0E70A;
+  -webkit-line-clamp: 1;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.faculty-about-section .person p{
+  -webkit-line-clamp: 1;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
 /* faculty-about-section end */
 /* list-of-departments start */
 .list-of-departments{  
@@ -877,12 +894,20 @@ a:link {
   border-bottom: 5px solid #c84545; 
   max-width: 400px;
 }
+.recent-news-notice-events .recent-news .recent-news-slider .date{
+  background-color: #0A9090; 
+  width: 20%;
+}
 .recent-news-notice-events .recent-news .card{
   border-bottom: 3px solid #0A9090; border-right: 3px solid #0A9090;
 }
 .recent-news-notice-events .recent-news .card img{
   max-width: 871px;
   max-height: 337px;
+}
+.recent-news-notice-events .recent-news .date{
+  background-color: #0A9090; 
+  width: 20%;
 }
 .recent-news-notice-events .recent-notice-and-events .notice-board .title{
   font-family: Almendra;
@@ -902,7 +927,6 @@ a:link {
   background-color: #F0E70A;
   color: #c84545;
 }
-.recent-news-notice-events .recent-notice-and-events .recent-events{}
 .recent-news-notice-events .recent-notice-and-events .recent-events .title{
   font-family: Almendra;
   font-size: 40px;
@@ -999,13 +1023,11 @@ button {
   -moz-appearance: none;
   appearance: none;
 }
-
 .slide-arrow {
   position: absolute;
   top: 50%;
   margin-top: -15px;
 }
-
 .prev-arrow {
   left: -30px;
   width: 50px;
@@ -1013,7 +1035,6 @@ button {
   background-image: url('/assets/images/Rectangle-159.png');
   background-repeat: no-repeat;
 }
-
 .next-arrow {
   right: -30px;
   width: 50px;
@@ -1021,7 +1042,6 @@ button {
   background-image: url('/assets/images/Rectangle-96.png');
   background-repeat: no-repeat;
 }
-
 .image-overlay {
   background-color: #c2ddb465;
   left: 0;
@@ -1030,7 +1050,6 @@ button {
   bottom: 0;
   display: none;
 }
-
 .image:hover .image-overlay {
   display: block;
   border-radius: 20px;
@@ -1061,6 +1080,24 @@ font-size: 29px;
   .vc-message .vc-message-bg-image .vc-photo-and-name {
     margin-left: -4rem !important;
   }
+   /* faculty start */
+   .faculty-members .title {
+    font-size: 30px;
+  }
+  .faculty-gallery .title {
+    font-size: 30px;
+  }
+  .faculty-about-section .about {
+    margin-top: 8rem;
+  }
+  .faculty-about-section .about h2{
+    font-size: 35px;
+  }
+  .faculty-about-section .person{
+    margin-top: -0rem;
+    margin-bottom: 32rem;
+  }
+  /* faculty end */
 }
 @media screen and (min-width: 992px) and (max-width: 1199.98px) {
   .welcome-butex .butex-content .butex-circle-img {
@@ -1069,6 +1106,24 @@ font-size: 29px;
   .vc-message .vc-message-bg-image .vc-photo-and-name {
     margin-left: -4rem !important;
   }
+    /* faculty start */
+    .faculty-members .title {
+      font-size: 30px;
+    }
+    .faculty-gallery .title {
+      font-size: 30px;
+    }
+    .faculty-about-section .about {
+      margin-top: 4.5rem;
+    }
+    .faculty-about-section .about h2{
+      font-size: 30px;
+    }
+    .faculty-about-section .person{
+      margin-top: -0rem;
+      margin-bottom: 28rem;
+    }
+    /* faculty end */
 }
 @media screen and (min-width: 768px) and (max-width: 991.98px) {
   .welcome-butex .butex-content .butex-circle-img {
@@ -1088,6 +1143,21 @@ font-size: 29px;
     margin: 10px;
     width: 45%;
   }
+   /* faculty start */
+   .faculty-members .title {
+    font-size: 30px;
+  }
+  .faculty-gallery .title {
+    font-size: 30px;
+  }
+  .faculty-about-section .about h2{
+    font-size: 35px;
+  }
+  .faculty-about-section .person{
+    margin-top: -0rem;
+    margin-bottom: 28rem;
+  }
+  /* faculty end */
 }
 @media screen and (min-width: 576px) and (max-width: 767.98px) {
   .welcome-butex .butex-content .butex-circle-img {
@@ -1120,6 +1190,21 @@ font-size: 29px;
     width: 180px; 
     height: 180px; 
   }
+   /* faculty start */
+   .faculty-members .title {
+    font-size: 30px;
+  }
+  .faculty-gallery .title {
+    font-size: 30px;
+  }
+  .faculty-about-section .about h2{
+    font-size: 25px;
+  }
+  .faculty-about-section .person{
+    margin-top: -0rem;
+    margin-bottom: 28rem;
+  }
+  /* faculty end */
 }
 @media screen and (min-width: 376px) and (max-width: 575.98px) {
   .welcome-butex .butex-content .butex-circle-img {
@@ -1142,12 +1227,28 @@ font-size: 29px;
   .butext-notice .butext-notice-middle-li-width {
     width: 100%;
   }
-  .faculty-members .title {
-    font-size: 30px;
-  }
-  .faculty-gallery .title {
-    font-size: 30px;
-  }
+    /* faculty start */
+    .faculty-members .title {
+      font-size: 30px;
+    }
+    .faculty-gallery .title {
+      font-size: 30px;
+    }
+    .faculty-about-section .about h2{
+      font-size: 25px;
+    }
+    .faculty-about-section .person{
+      margin-top: -0rem;
+      margin-bottom: 28rem;
+    }
+    .list-of-departments .title {
+      font-size: 25px;
+      -webkit-line-clamp: 1;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+    /* faculty end */
 
 }
 @media screen and (min-width: 320px) and (max-width: 375.98px) {
@@ -1168,10 +1269,38 @@ font-size: 29px;
   .butext-notice .butext-notice-middle-li-width {
     width: 100%;
   }
+  /* faculty start */
   .faculty-members .title {
     font-size: 30px;
   }
   .faculty-gallery .title {
     font-size: 30px;
   }
+  .faculty-about-section .about h2{
+    font-size: 20px;
+  }
+  .faculty-about-section .person{
+    margin-top: -0rem;
+    margin-bottom: 24rem;
+  }
+  .list-of-departments .title {
+    font-size: 20px;
+    -webkit-line-clamp: 1;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .recent-news-notice-events .recent-news .title{
+    /* font-size: 30px;
+    -webkit-line-clamp: 1;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden; */
+  }
+  .recent-news-notice-events .recent-news .date{
+    background-color: #0A9090; 
+    width: 20%;
+  }
+  
+  /* faculty end */
 }
