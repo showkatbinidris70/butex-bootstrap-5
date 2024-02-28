@@ -807,6 +807,59 @@ a:link {
 }
 /* footer end */
 /* faculty start */
+/* header start */
+.faculty .faculty-header-top{
+  background-color: #C84545;
+  color: #fff;
+  
+}
+.faculty .faculty-header-main{
+  background-color: #0b9d9d;
+  color: #fff;
+}
+.faculty .faculty-header-main{
+  background-color: #0b9d9d;
+  color: #fff;
+}
+.faculty .faculty-header-main .title{
+  font-family: Oxanium; 
+  font-size: 25px;
+  font-weight: bolder;
+}
+.faculty .faculty-header-main .navbar-nav .nav-link{
+  font-family: Inter; 
+  font-size: 16px; 
+  font-weight: bold;
+  color: #fff;
+}
+.faculty .faculty-header-main .nav-item-large{
+  font-family: Inter; 
+  font-size: 14px; 
+  font-weight: bold;
+  color: #fff;
+}
+/* ---------------------------- */
+
+.dropdown-toggle::after {
+  display: inline-block;
+  width: 0.5em;
+  height: 0.5em;
+  vertical-align: middle;
+  content: "";
+  border: 0.3em solid;
+  border-width: 0 0.15em 0.15em 0;
+  transform: rotateZ(45deg);
+  margin-top: -0.3rem;
+}
+
+.nav-bar-lang ul li {
+  font-family: Segoe UI;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+/* ---------------------------- */
 /* faculty-about-section start */
 .faculty-about-section{
   background-color: rgba(255, 255, 255, 0.3);
@@ -1157,6 +1210,16 @@ font-size: 29px;
     margin-top: -0rem;
     margin-bottom: 28rem;
   }
+  .faculty .faculty-header-main .title{
+    font-size: 18px;
+  }
+  .faculty .faculty-header-main .main-logo{
+    width: 60px;
+    height: 60px;
+  }
+  .faculty .faculty-header-main .title{
+    font-size: 20px;
+  }
   /* faculty end */
 }
 @media screen and (min-width: 576px) and (max-width: 767.98px) {
@@ -1204,6 +1267,14 @@ font-size: 29px;
     margin-top: -0rem;
     margin-bottom: 28rem;
   }
+  .faculty .faculty-header-main .main-logo{
+    width: 60px;
+    height: 60px;
+  }
+  .faculty .faculty-header-main .title{
+    font-size: 20px;
+    max-width: 350px;
+  }
   /* faculty end */
 }
 @media screen and (min-width: 376px) and (max-width: 575.98px) {
@@ -1247,6 +1318,14 @@ font-size: 29px;
       display: -webkit-box;
       -webkit-box-orient: vertical;
       overflow: hidden;
+    }
+    .faculty .faculty-header-main .main-logo{
+      width: 60px;
+      height: 60px;
+    }
+    .faculty .faculty-header-main .title{
+      font-size: 16px;
+      max-width: 200px;
     }
     /* faculty end */
 
@@ -1301,6 +1380,13 @@ font-size: 29px;
     background-color: #0A9090; 
     width: 20%;
   }
-  
+  .faculty .faculty-header-main .main-logo{
+    width: 50px;
+    height: 50px;
+  }
+  .faculty .faculty-header-main .title{
+    font-size: 12px;
+    width: 180px;
+  }
   /* faculty end */
 }
