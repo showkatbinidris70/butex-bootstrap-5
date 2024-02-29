@@ -561,6 +561,15 @@ a:link {
 }
 /* department-section end */
 /* butext-counter start */
+.butex-counter {
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            min-height: 100%;
+            background: url("/assets/images/Rectangle-93.png") rgb(219, 204, 204);
+            background-size: cover;
+            background-blend-mode: multiply;
+}
 .butex-counter button {
   margin: 0;
   padding: 0;
@@ -748,11 +757,12 @@ a:link {
 /* affiliated end */
 /* footer start */
 .footer-container {
-  background-image: url("/assets/images/footer-bg.png");
+  border-top: 11px solid #c84545;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  border-top: 11px solid #c84545;
+  min-height: 100%;
+  background: url("/assets/images/Footer.png") rgba(3, 81, 81, 0.075);
 }
 .footer-top {
   padding: 58px 0;
@@ -860,6 +870,13 @@ a:link {
 }
 
 /* ---------------------------- */
+/* flash-news start */
+.flash-news .title{
+  font-size: 24px;
+  font-weight: bold;
+  color: #000;
+}
+/* flash-news end */
 /* faculty-about-section start */
 .faculty-about-section{
   background-color: rgba(255, 255, 255, 0.3);
@@ -871,20 +888,20 @@ a:link {
   background-size: cover;
   background-blend-mode: multiply;
 }
-.faculty-about-section .about h2{
+.faculty-about-section .title{
   font-family: almendra;
-  font-size: 40px;
+  font-size: 35px;
   font-weight: bold;
   -webkit-line-clamp: 2;
   display: -webkit-box;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
-.faculty-about-section .about p{
+.faculty-about-section  p{
   font-family: Inter; 
   text-align: justify; 
   text-justify: inter-word;
-  -webkit-line-clamp: 7;
+  -webkit-line-clamp: 14;
   display: -webkit-box;
   -webkit-box-orient: vertical;
   overflow: hidden;
@@ -945,7 +962,6 @@ a:link {
   letter-spacing: 4px;
   color: #c84545;
   border-bottom: 5px solid #c84545; 
-  max-width: 400px;
 }
 .recent-news-notice-events .recent-news .recent-news-slider .date{
   background-color: #0A9090; 
@@ -971,7 +987,6 @@ a:link {
   letter-spacing: 4px;
   color: #fff;
   border-bottom: 5px solid #fff; 
-  max-width: 400px;
 }
 .recent-news-notice-events .recent-notice-and-events .notice-board .nav-link {
   color: #fff;
@@ -1140,7 +1155,7 @@ font-size: 29px;
   .faculty-gallery .title {
     font-size: 30px;
   }
-  .faculty-about-section .about {
+  /* .faculty-about-section .about {
     margin-top: 8rem;
   }
   .faculty-about-section .about h2{
@@ -1149,7 +1164,7 @@ font-size: 29px;
   .faculty-about-section .person{
     margin-top: -0rem;
     margin-bottom: 32rem;
-  }
+  } */
   /* faculty end */
 }
 @media screen and (min-width: 992px) and (max-width: 1199.98px) {
@@ -1166,7 +1181,7 @@ font-size: 29px;
     .faculty-gallery .title {
       font-size: 30px;
     }
-    .faculty-about-section .about {
+    /* .faculty-about-section .about {
       margin-top: 4.5rem;
     }
     .faculty-about-section .about h2{
@@ -1175,7 +1190,7 @@ font-size: 29px;
     .faculty-about-section .person{
       margin-top: -0rem;
       margin-bottom: 28rem;
-    }
+    } */
     /* faculty end */
 }
 @media screen and (min-width: 768px) and (max-width: 991.98px) {
@@ -1203,7 +1218,7 @@ font-size: 29px;
   .faculty-gallery .title {
     font-size: 30px;
   }
-  .faculty-about-section .about h2{
+  /* .faculty-about-section .about h2{
     font-size: 35px;
   }
   .faculty-about-section .person{
@@ -1219,7 +1234,7 @@ font-size: 29px;
   }
   .faculty .faculty-header-main .title{
     font-size: 20px;
-  }
+  } */
   /* faculty end */
 }
 @media screen and (min-width: 576px) and (max-width: 767.98px) {
@@ -1260,7 +1275,7 @@ font-size: 29px;
   .faculty-gallery .title {
     font-size: 30px;
   }
-  .faculty-about-section .about h2{
+  /* .faculty-about-section .about h2{
     font-size: 25px;
   }
   .faculty-about-section .person{
@@ -1274,7 +1289,7 @@ font-size: 29px;
   .faculty .faculty-header-main .title{
     font-size: 20px;
     max-width: 350px;
-  }
+  } */
   /* faculty end */
 }
 @media screen and (min-width: 376px) and (max-width: 575.98px) {
@@ -1305,7 +1320,7 @@ font-size: 29px;
     .faculty-gallery .title {
       font-size: 30px;
     }
-    .faculty-about-section .about h2{
+    /* .faculty-about-section .about h2{
       font-size: 25px;
     }
     .faculty-about-section .person{
@@ -1326,7 +1341,7 @@ font-size: 29px;
     .faculty .faculty-header-main .title{
       font-size: 16px;
       max-width: 200px;
-    }
+    } */
     /* faculty end */
 
 }
@@ -1388,5 +1403,10 @@ font-size: 29px;
     font-size: 12px;
     width: 180px;
   }
+  .flash-news .title{
+    font-size: 16px;
+    font-weight: bold;
+  }
+
   /* faculty end */
 }

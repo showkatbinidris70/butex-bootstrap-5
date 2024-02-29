@@ -300,8 +300,8 @@
         <div class="container">
             <div class="row">
                 <div class="d-flex gap-4">
-                    <div class="fs-5 fw-bold w-auto">FLASH NEWS :</div>
-                    <div class="w-75">
+                    <div class="title d-flex align-items-center">FLASH NEWS :</div>
+                    <div class="w-50 w-md-75 fw-normal fs-5  d-flex align-items-center">
                         <marquee direction="right" scrollamount="10">This text will scroll from left to
                             right</marquee>
                     </div>
@@ -309,13 +309,6 @@
             </div>
         </div>
     </section>
-    <script>
-        const newArray = [20, 30, 30, 10, 5, 3, 2];
-        let sum = newArray.reduce((prev, curr) => {
-            return (prev + curr);
-        }, 0);
-        console.log(sum);
-    </script>
     <section class="hero-section">
         <div class="container-fluid">
             <div class="row">
@@ -342,22 +335,22 @@
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
                         data-bs-slide="prev">
-                        <!-- <span class="" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="36" height="70"
+                        <span class="" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="36" height="70"
                                 viewBox="0 0 36 70" fill="none">
                                 <path d="M0.854185 33.883L35.9434 0L13.3052 33.883L35.9434 70L0.854185 33.883Z"
                                     fill="black" />
-                            </svg></span> -->
+                            </svg></span>
                         <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span> -->
                         <span class="visually-hidden">Previous</span>
                     </button>
                     <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
                         data-bs-slide="next">
                         <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
-                        <!-- <span aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="36" height="70"
+                        <span aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="36" height="70"
                                 viewBox="0 0 36 70" fill="none">
                                 <path d="M35.8312 33.883L0.741936 0L23.3802 33.883L0.741936 70L35.8312 33.883Z"
                                     fill="black" />
-                            </svg></span> -->
+                            </svg></span>
                         <span class="visually-hidden">Next</span>
                     </button>
                 </div>
@@ -365,14 +358,18 @@
         </div>
     </section>
     <section class="faculty-about-section py-3 py-md-5 py-lg-2 py-xl-5">
-        <div class="container py-md-5 py-lg-2 py-xl-5">
-            <div class="row p-md-2 p-lg-0">
+        <div class="container">
+            <div class="row">
                 <div class="col-sm-12 col-lg-6">
-                    <div class="about pt-xl-4">
-                        <h2 class="text-danger py-3 mt-1">ABOUT Faculty of Textile Management and Business Studies</h2>
-                        <div class="card border-0 shadow-lg p-3">
-                            <div>
-                                <p class="fw-normal fs-5">
+                    <div class="card h-100 w-100 bg-transparent border-0 py-2">
+                        <div class="pb-3">
+                            <h2 class="text-danger text-uppercase title">ABOUT Faculty of Textile Management
+                                and
+                                Business Studies</h2>
+                        </div>
+                        <div class="card border-0 mt-4 shadow p-3 h-100 position-relative">
+                            <div class="message">
+                                <p class="fw-normal fs-5 pb-5">
                                     Textile and garments is
                                     the largest
                                     export oriented sector in
@@ -384,35 +381,31 @@
                                     maintained
                                     by skillful engineers are the most important prerequisites for perfect products.</p>
                             </div>
-                            <div class="d-flex justify-content-end me-3 py-2 pt-xl-5"><a href="/"
-                                    class="text-white p-2 rounded"
+                            <div class="position-absolute end-0 bottom-0 pe-4 py-4"><a href="/"
+                                    class="text-white p-2  rounded"
                                     style="box-shadow: 2px 2px 0px 1px #0B9D9D; background-color: #c84545; ">Read
                                     More</a></div>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-12 col-lg-6">
-                    <div class="person">
-                        <div class="position-relative pt-4 pt-sm-3 pt-lg-5">
-                            <div class="card shadow-lg border-0">
-                                <div class="text-center tag position-absolute w-100"><img
-                                        src="/assets/images/Ellipse-13.png" class="img-fluid w-50 rounded-circle"
-                                        style="border: 5px solid #0A9090;" />
-                                    <div class="border-0 text-center shadow-lg pt-5 pb-3"
-                                        style="margin-top: -100px; background-color: #0B9D9D;" style="z-index: -100;">
-                                        <h2 class="pt-5">Dr. Md. Masum </h2>
-                                        <h2 class="text-center">Dean</h2>
-                                        <p class="px-3 fw-bold fs-5 text-white">Faculty of Textile Management and
-                                            Business
-                                        </p>
-                                        <p class="px-1 px-md-3 fw-bold fs-5 text-white">
-                                            Email: dean.ftmbs@butex.edu.bd</p>
-                                        <div class="d-flex justify-content-center me-3 mt-3"><a href="/"
-                                                class="text-white p-2 rounded"
-                                                style="box-shadow: 2px 2px 0px 1px #0B9D9D; background-color: #c84545; ">Read
-                                                More</a></div>
-                                    </div>
-                                </div>
+                    <div class="card h-100 w-100 border-0 bg-transparent py-2">
+                        <div class="head-of-faculty position-lg-relative">
+                            <div class="text-center position-absolute w-100">
+                                <img src="/assets/images/Ellipse-13.png" class="img-fluid w-50" />
+                            </div>
+                            <div class=""
+                                style="margin-top: 7.5rem; padding-top: 10rem; padding-bottom: 1rem; background-color: #0B9D9D;">
+                                <h2 class="pt-5 text-center" style="color: #F0E70A;">Dr. Md. Masum </h2>
+                                <h2 class="text-center" style="color: #F0E70A;">Dean</h2>
+                                <p class="px-3 fw-bold fs-5 text-white text-center">Faculty of Textile Management and
+                                    Business
+                                </p>
+                                <p class="px-1 px-md-3 fw-bold fs-5 text-white text-center">
+                                    Email: dean.ftmbs@butex.edu.bd</p>
+                                <div class="text-center pt-3"><a href="/" class="text-white p-2  rounded"
+                                        style="box-shadow: 2px 2px 0px 1px #0B9D9D; background-color: #c84545; ">Read
+                                        More</a></div>
                             </div>
                         </div>
                     </div>
@@ -422,11 +415,14 @@
     </section>
     <section class="list-of-departments">
         <div class="container">
-            <div class="d-flex justify-content-center">
-                <h2 class="title pt-5">LIST OF DEPARTMENTS</h2>
+            <div class="row">
+                <div class="col-sm-6 col-md-4"></div>
+                <div class="col-sm-6 col-md-8">
+                    <h2 class="title pt-5">LIST OF DEPARTMENTS</h2>
+                </div>
             </div>
-            <div class="row pt-3 px-4 pb-5">
-                <div class="list-of-departments-slider">
+            <div class="row pt-3 pb-5">
+                <div class="list-of-departments-slider px-0">
                     <div class="col-sm-6 col-md-6 col-lg-6 col-xl-4">
                         <div class="card bg-transparent border-0">
                             <div class="department-section-card mx-4"
@@ -514,8 +510,11 @@
     <section class="recent-news-notice-events">
         <div class="recent-news">
             <div class="container">
-                <div class="d-flex justify-content-center">
-                    <h2 class="title pt-5">RECENT NEWS</h2>
+                <div class="row">
+                    <div class="col-sm-6 col-md-8">
+                        <h2 class="title pt-5 text-end">RECENT NEWS</h2>
+                    </div>
+                    <div class="col-sm-6 col-md-4"> </div>
                 </div>
                 <div class="row my-5">
                     <div class="col-sm-12 col-md-6">
@@ -680,8 +679,12 @@
                 <div class="row py-5">
                     <div class="col-sm-12 col-md-6">
                         <div class="card notice-board position-relative h-100">
-                            <div class="d-flex justify-content-center py-4" style="background-color: #0A9090;">
-                                <h2 class="title">NOTICE BOARD</h2>
+                            <div class="row"
+                                style="background-color: #0A9090; margin-left: 0.02rem; margin-right: 0.0001rem;">
+                                <div class="col-sm-6 col-md-9 pb-5 px-0">
+                                    <h2 class="title pt-5 text-end">NOTICE BOARD</h2>
+                                </div>
+                                <div class="col-sm-6 col-md-3"> </div>
                             </div>
                             <div style="background-color: #C84545;">
                                 <div class="d-flex justify-content-center mx-1 my-4">
@@ -855,9 +858,18 @@
                                 </div>
                             </div>
                             <div class="slider recent-events-slider" style="width: 80%; border: 1px solid #0A9090;">
-                                <div class="d-flex justify-content-center py-4" style="background-color: #0A9090;">
-                                    <h2 class="title">RECENT EVENTS</h2>
+                                <div class="row"
+                                    style="background-color: #0A9090; margin-left: 0.01rem; margin-right: 0.001rem;">
+                                    <div class="col-sm-6 col-md-3 pb-5 px-0">
+
+                                    </div>
+                                    <div class="col-sm-6 col-md-9 pb-5">
+                                        <h2 class="title pt-5 text-end">RECENT EVENTS</h2>
+                                    </div>
                                 </div>
+                                <!-- <div class="d-flex justify-content-center py-4" style="background-color: #0A9090;">
+                                    <h2 class="title">RECENT EVENTS</h2>
+                                </div> -->
                                 <div class="slick">
                                     <div class="item" style="border: 1px solid #0A9090;">
                                         <div class="item py-3" style="border: 1px solid #0A9090;">

@@ -168,6 +168,42 @@ $(document).ready(function () {
     ],
   });
 });
+// butex-prospectus-slider start
+$(document).ready(function () {
+  $(".butex-prospectus-slider").slick({
+    autoplay: true,
+    arrows: false,
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 4,
+    slidesToScroll: 1,
+
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 991,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 1920,
+        settings: {
+          slidesToShow: 4,
+          slidesToScroll: 1,
+        },
+      },
+    ],
+  });
+});
 
 // faculty-gallery-image-slider start
 $(document).ready(function () {
