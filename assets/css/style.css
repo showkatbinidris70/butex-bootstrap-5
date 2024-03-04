@@ -70,6 +70,79 @@ body {
   transform: skew(50deg);
   transform-origin: top;
 } */
+
+/* scrolling css start */
+.reveal {
+  position: relative;
+  opacity: 0;
+}
+
+.reveal.active {
+  opacity: 1;
+}
+
+.active.fade-bottom {
+  animation: fade-bottom 0.5s ease-in;
+}
+
+.active.fade-left {
+  animation: fade-left 0.5s ease-in;
+}
+
+.active.fade-right {
+  animation: fade-right 0.5s ease-in;
+}
+
+@keyframes fade-bottom {
+  0% {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fade-left {
+  0% {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fade-right {
+  0% {
+    transform: translateX(100px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.zoomIn {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: 0.5s linear;
+  transition: 0.5s linear;
+}
+
+.zoomIn:hover {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.1);
+}
+
+
+/* scrolling css end */
 .topnav {
   background-color: var(--bg_green-primary);
 }
@@ -943,6 +1016,18 @@ a:link {
   letter-spacing: 4px;
   color: #078484;
   border-bottom: 5px solid #078484;
+}
+.list-of-departments .card-bottom{
+  background-color: #BA3B3B;
+  color: #fff;
+}
+.list-of-departments .card-bottom .btn{
+  color: #fff;
+  background-color: #BA3B3B;
+}
+.list-of-departments .card-bottom:hover{
+  background-color: #fff;
+  color: #BA3B3B;
 }
 /* list-of-departments end */
 /* recent-news-notice-events start */
