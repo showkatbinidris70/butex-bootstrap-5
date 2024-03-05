@@ -171,9 +171,15 @@
                                 <div class="">
                                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                                            <li class="nav-item">
-                                                <a class="nav-link active" aria-current="page"
-                                                    href="faculty.html">About</a>
+                                            <li class="nav-item dropdown">
+                                                <a class="nav-link active dropdown-toggle" aria-current="page"
+                                                    href="faculty.html" data-bs-toggle="dropdown"
+                                                    aria-expanded="false">About</a>
+                                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                                    <li><a class="dropdown-item" href="/faculty.html">Faculty</a></li>
+                                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                                </ul>
                                             </li>
                                             <li class="nav-item">
                                                 <a class="nav-link" href="#">ACADEMICS</a>
@@ -206,12 +212,13 @@
                 <div class="row">
                     <div class="col-sm-6 col-md-3 p-0 m-0">
                         <div class="flash-news-left py-2">
-                            <p class="d-flex justify-content-center">Flash News :</p>
+                            <p class="d-flex justify-content-center fs-5">Flash News :</p>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-9 p-0 m-0">
                         <div class="flash-news-right py-2">
-                            <p class="ps-4">. This section will have latest news, events or any notice ;</p>
+                            <marquee direction="left" class="fs-5" scrollamount="10">This text will scroll from right to
+                                left</marquee>
                         </div>
                     </div>
                 </div>
@@ -1499,6 +1506,41 @@
                 </svg></div>
             <div class="affiliated-card">
                 <div class="row">
+                    <div
+                        class="d-flex justify-content-center justify-content-sm-start justify-content-lg-start justify-content-xl-around justify-content-xxl-between flex-wrap">
+                        <div class="card" style="width: 200px;">
+                            <div class="card-img d-flex justify-content-center py-2">
+                                <img src="assets/images/image 16.png" alt="">
+                            </div>
+                            <p>Bangabandhu Textile Engineering College</p>
+                        </div>
+                        <div class="card" style="width: 200px;">
+                            <div class="card-img d-flex justify-content-center py-2">
+                                <img src="assets/images/image 16.png" alt="">
+                            </div>
+                            <p>Bangabandhu Textile Engineering College</p>
+                        </div>
+                        <div class="card" style="width: 200px;">
+                            <div class="card-img d-flex justify-content-center py-2">
+                                <img src="assets/images/image 16.png" alt="">
+                            </div>
+                            <p>Bangabandhu Textile Engineering College</p>
+                        </div>
+                        <div class="card" style="width: 200px;">
+                            <div class="card-img d-flex justify-content-center py-2">
+                                <img src="assets/images/image 16.png" alt="">
+                            </div>
+                            <p>Bangabandhu Textile Engineering College</p>
+                        </div>
+                        <div class="card" style="width: 200px;">
+                            <div class="card-img d-flex justify-content-center py-2">
+                                <img src="assets/images/image 16.png" alt="">
+                            </div>
+                            <p>Bangabandhu Textile Engineering College</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row d-none">
                     <div class="col">
                         <div class="card" style="max-width: 200px;">
                             <div class="card-img d-flex justify-content-center py-2">
@@ -1550,8 +1592,8 @@
     <!-- Footer -->
     <footer class="footer-container">
         <div class="container footer-top">
-            <div class="row">
-                <div class="col-lg-5 col-md-6 footer-address">
+            <div class="row px-3 px-md-0">
+                <div class="col-12 col-sm-6 col-md-6 col-lg-3 col-xxl-5 footer-address">
                     <div class="footer-logo">
                         <img src="assets/images/logo.png" />
                     </div>
@@ -1564,7 +1606,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-2 col-md-6 footer-link ">
+                <div class="col-6 col-sm-6 col-md-6 col-lg-3 col-xxl-2 footer-link ">
                     <div class="link-title">
                         <h3>USEFUL LINKS</h3>
                     </div>
@@ -1579,7 +1621,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-2 col-md-6 footer-link">
+                <div class="col-6 col-sm-6 col-md-6 col-lg-3 col-xxl-2 footer-link">
                     <div class="link-title">
                         <h3>USEFUL LINKS</h3>
                     </div>
@@ -1593,7 +1635,7 @@
                         <li><a href="#">USEFUL LINKS</a></li>
                     </div>
                 </div>
-                <div class="col-lg-2 col-md-6 footer-link">
+                <div class="col-6 col-sm-6 col-md-6 col-lg-3 col-xxl-2 footer-link">
                     <div class="link-title">
                         <h3>USEFUL LINKS</h3>
                     </div>
@@ -1611,8 +1653,8 @@
         </div>
         <div class="footer-bottom py-2">
             <div class="container text-white d-flex justify-content-between align-items-center">
-                <p class="mb-0">All rights Reserved &copy; Butex,2024</p>
-                <p class="mb-0">
+                <p class="mb-0 copy-right">All rights Reserved &copy; Butex,2024</p>
+                <p class="mb-0 deveoped-by">
                     Developed by: <a class="text-white" href="#">Nanosoft</a>
                 </p>
             </div>
