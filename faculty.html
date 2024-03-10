@@ -207,25 +207,28 @@
                 <div class="row p-0 m-0">
                     <nav class="navbar navbar-expand-lg navbar-light">
                         <div class="container-fluid px-1">
-                            <a class="navbar-brand" href="#">
-                                <div class="d-flex gap-3 align-items-center">
-                                    <div>
-                                        <img src="/assets/images/faculty-logo.svg"
-                                            class="img-fluid bg-white p-1 main-logo" />
+                            <div class="d-flex justify-content-between w-100">
+                                <a class="navbar-brand" href="#">
+                                    <div class="d-flex gap-3 align-items-center">
+                                        <div>
+                                            <img src="/assets/images/faculty-logo.svg"
+                                                class="img-fluid bg-white p-1 main-logo" />
+                                        </div>
+                                        <div>
+                                            <h2 class="text-white title text-wrap">Faculty of Textile Management and
+                                                Business Studies
+                                            </h2>
+                                        </div>
                                     </div>
-                                    <div>
-                                        <h2 class="text-white title text-wrap">Faculty of Textile Management and
-                                            Business Studies
-                                        </h2>
-                                    </div>
-                                </div>
-                            </a>
-                            <button class="navbar-toggler border-1 border-white" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                                aria-expanded="false" aria-label="Toggle navigation">
-                                <span><i class="fa-solid fa-bars d-flex align-items-center"
-                                        style="color: #FFF; height: 30px;"></i></span>
-                            </button>
+                                </a>
+                                <button class="navbar-toggler border-1 border-white" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                                    aria-controls="navbarSupportedContent" aria-expanded="false"
+                                    aria-label="Toggle navigation">
+                                    <span><i class="fa-solid fa-bars d-flex align-items-center"
+                                            style="color: #FFF; height: 30px;"></i></span>
+                                </button>
+                            </div>
                             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                                 <ul class="navbar-nav me-auto mb-lg-0 d-block d-lg-none">
                                     <li class="nav-item">
@@ -263,14 +266,19 @@
             </div>
         </div>
     </header>
-    <section class="flash-news py-2" style="background-color: #D9D9D9;">
+    <section class="flash-news py-2 d-none d-lg-block" style="background-color: #D9D9D9;">
         <div class="container">
             <div class="row">
-                <div class="d-flex gap-4">
-                    <div class="title d-flex align-items-center">FLASH NEWS :</div>
-                    <div class="w-50 w-md-75 fw-normal fs-5  d-flex align-items-center">
-                        <marquee direction="right" scrollamount="10">This text will scroll from left to
-                            right</marquee>
+                <div class="col-sm-6 col-md-3 p-0 m-0">
+                    <div class="flash-news-lef py-2  ps-3">
+                        <p class="d-flex justify-content-start fs-3 fw-bolder">Flash News :</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-9 p-0 m-0">
+                    <div class="flash-news-righ py-2">
+                        <marquee direction="left" class="fs-5 fw-normal" scrollamount="10">This text will scroll from
+                            right to
+                            left</marquee>
                     </div>
                 </div>
             </div>
@@ -362,7 +370,7 @@
                                 <img src="/assets/images/Ellipse-13.png" class="img-fluid w-50 zoomIn" />
                             </div>
                             <div class=""
-                                style="margin-top: 7.5rem; padding-top: 10rem; padding-bottom: 1rem; background-color: #0B9D9D;">
+                                style="margin-top: 7.5rem; padding-top: 11rem; padding-bottom: 1rem; background-color: #0B9D9D;">
                                 <h2 class="pt-5 text-center" style="color: #F0E70A;">Dr. Md. Masum </h2>
                                 <h2 class="text-center" style="color: #F0E70A;">Dean</h2>
                                 <p class="px-3 fw-bold fs-5 text-white text-center">Faculty of Textile Management and
@@ -383,8 +391,8 @@
     <section class="list-of-departments">
         <div class="container">
             <div class="row">
-                <div class="col-sm-6 col-md-4"></div>
-                <div class="col-sm-6 col-md-8">
+                <div class="col-sm-12 col-md-4 d-sm-none d-md-block"></div>
+                <div class="col-sm-12 col-md-8">
                     <h2 class="title pt-5">LIST OF DEPARTMENTS</h2>
                 </div>
             </div>
@@ -478,13 +486,13 @@
         <div class="recent-news">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-6 col-md-8">
+                    <div class="col-sm-12 col-md-8">
                         <h2 class="title pt-5 text-end">RECENT NEWS</h2>
                     </div>
-                    <div class="col-sm-6 col-md-4"> </div>
+                    <div class="col-sm-12 col-md-4"> </div>
                 </div>
                 <div class="row my-5">
-                    <div class="col-sm-12 col-md-6">
+                    <div class="col-sm-12 col-lg-6 my-2">
                         <div class="card position-relative py-3 py-md-0 h-100">
                             <img src="/assets/images/Rectangle-84.png" class="card-img-top img-fluid" alt="...">
                             <div class="card-body">
@@ -500,7 +508,7 @@
                                 style="background-color: #0A9090; margin-top: -30px;">27 <br />JAN 24</div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-6">
+                    <div class="col-sm-12 col-lg-6 my-2">
                         <div class="card bg-transparent py-3 py-md-0 h-100 border-0">
                             <!-- vertical slick slider start -->
                             <style>
@@ -644,7 +652,7 @@
         <div class="recent-notice-and-events">
             <div class="container">
                 <div class="row py-5">
-                    <div class="col-sm-12 col-md-6">
+                    <div class="col-sm-12 col-lg-6">
                         <div class="card notice-board position-relative h-100">
                             <div class="row"
                                 style="background-color: #0A9090; margin-left: 0.02rem; margin-right: 0.0001rem;">
@@ -798,7 +806,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-6">
+                    <div class="col-sm-12 col-lg-6">
                         <div class="card recent-events bg-transparent h-100 border-0">
                             <!-- vertical slick slider start -->
                             <style>
