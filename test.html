@@ -67,6 +67,15 @@
         }
         // console.log(toCelsius());
     </script>
+    <script>
+        const arr = [1, 2];
+        // const sum = arr.reduce((pre, curr) => { return pre + curr },1);
+        const sum = arr.reduce(fun,2);
+        function fun(pre, curr) {
+            return pre + curr;
+        }
+        console.log(sum);
+    </script>
     <!--  -->
     <swiper-container class="mySwiper" init="false">
         <swiper-slide>Slide 1</swiper-slide>

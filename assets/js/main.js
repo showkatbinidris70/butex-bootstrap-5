@@ -318,6 +318,18 @@ $(".slick", ".notice-board-slider").slick({
   nextArrow: $(".next"),
 });
 // vertical slider end
+// academic-calendar slider start
+$(".slick", ".academic-calendar-slider").slick({
+  vertical: true,
+  verticalSwiping: true,
+  autoplay: true,
+  autoplaySpeed: 5000,
+  slidesToShow: 5,
+  slidesToScroll: 1,
+  prevArrow: $(".prev"),
+  nextArrow: $(".next"),
+});
+// academic-calendar slider end
 // butext
 let items = document.querySelectorAll(
   ".carousel-butex-prospectus .carousel-item"

@@ -56,23 +56,18 @@ body {
   position: relative;
   opacity: 0;
 }
-
 .reveal.active {
   opacity: 1;
 }
-
 .active.fade-bottom {
   animation: fade-bottom 0.5s ease-in;
 }
-
 .active.fade-left {
   animation: fade-left 0.5s ease-in;
 }
-
 .active.fade-right {
   animation: fade-right 0.5s ease-in;
 }
-
 @keyframes fade-bottom {
   0% {
     transform: translateY(50px);
@@ -84,7 +79,6 @@ body {
     opacity: 1;
   }
 }
-
 @keyframes fade-left {
   0% {
     transform: translateX(-100px);
@@ -96,7 +90,6 @@ body {
     opacity: 1;
   }
 }
-
 @keyframes fade-right {
   0% {
     transform: translateX(100px);
@@ -108,20 +101,16 @@ body {
     opacity: 1;
   }
 }
-
 .zoomIn {
   -webkit-transform: scale(1);
   transform: scale(1);
   -webkit-transition: 0.5s linear;
   transition: 0.5s linear;
 }
-
 .zoomIn:hover {
   -webkit-transform: scale(1.2);
   transform: scale(1.1);
 }
-
-
 /* scrolling css end */
 .topnav {
   background-color: var(--bg_green-primary);
@@ -184,7 +173,6 @@ body {
   line-height: normal;
   text-transform: uppercase;
 }
-
 .search_input {
   border-radius: 10px;
   border: 1px solid #769e9e;
@@ -274,8 +262,14 @@ a:link {
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
-  line-height: 20px; /* 142.857% */
+  line-height: 20px;
   letter-spacing: 1.12px;
+}
+.welcome-butex .butex-content .right p{
+  -webkit-line-clamp: 30;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 /* welcome-butex end */
 .butext-notice .butext-notice-first-last-li-width {
@@ -421,7 +415,7 @@ a:link {
   line-height: 20px;
   letter-spacing: 1.9px;
 }
-.vc-message .vc-message-bg-image .vc-name {
+.vc-message .vc-message-bg-image .vc-name p{
   color: #fff;
   text-align: center;
   font-family: Calistoga;
@@ -454,6 +448,10 @@ a:link {
   font-weight: 700;
   line-height: normal;
   letter-spacing: 4px;
+  -webkit-line-clamp: 1;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 .campus-facilities .card p {
   background: rgba(16, 120, 120, 0.9);
@@ -614,13 +612,13 @@ a:link {
 /* department-section end */
 /* butext-counter start */
 .butex-counter {
-            background-repeat: no-repeat;
-            background-position: center;
-            background-size: cover;
-            min-height: 100%;
-            background: url("/assets/images/Rectangle-93.png") rgb(219, 204, 204);
-            background-size: cover;
-            background-blend-mode: multiply;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 100%;
+  background: url("/assets/images/Rectangle-93.png") rgb(219, 204, 204);
+  background-size: cover;
+  background-blend-mode: multiply;
 }
 .butex-counter button {
   margin: 0;
@@ -658,6 +656,89 @@ a:link {
 }
 /* butext-counter end */
 /* academic calender start */
+.calendar-location .calendar .title {
+  color: #fff;
+  text-align: start;
+  text-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: Almendra;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 4px;
+  background-color: #C84545;
+}
+.calendar-location .calendar .calendar-bg-image {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 100%;
+  background: url("/assets/images/Rectangle\ 97.png") rgb(0, 0, 0, 0.25);
+  background-size: cover;
+  background-blend-mode: multiply;
+  box-shadow: 0px 8px 4px rgba(0, 0, 0, 0.699);
+}
+.calendar-location .location .title{
+  color: #0B5050;
+  text-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: Almendra;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 4px;
+}
+.calendar-location .location .location-bg-image {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 100%;
+  background: url("/assets/images/Rectangle\ 98.png") rgb(0, 0, 0, 0.25);
+  background-size: cover;
+  background-blend-mode: multiply;
+  box-shadow: 0px 8px 4px rgba(0, 0, 0, 0.699);
+}
+
+/* ------------------------ */
+.calendar-location .calendar .calendar-bg-image .date-container {
+  height: 105px;
+  background-color: #fff9f9;
+  box-shadow: 5px 5px 4px 0px #000000;
+  margin: 0 22px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+.calendar-location .calendar .calendar-bg-image .date-container .date {
+  padding: 15px;
+}
+.calendar-location .calendar .calendar-bg-image .date-container .date p {
+  font-family: Almarai;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.1em;
+}
+.calendar-location .calendar .calendar-bg-image .date-container .view {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 31% 100%);
+  background-color: #097c7c;
+  width: 95px;
+  height: 105px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.calendar-location .calendar .calendar-bg-image .date-container .view p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+/* ------------------------ */
+
+
+
 .calender-container .title {
   background-color: #c84545;
   color: #fff;
@@ -712,6 +793,8 @@ a:link {
   align-items: center;
   color: #fff;
 }
+
+
 .map-container .title h2 {
   font-family: Almendra;
   font-size: 40px;
@@ -1213,14 +1296,20 @@ font-size: 29px;
 }
 /* faculty-footer end */
 /* media query start */
-@media screen and (min-width: 768px) and (max-width: 1920px) {
+@media screen and (min-width: 1500px) and (max-width: 1920px) {
   .vc-message .vc-message-bg-image .vc-photo-and-name {
     margin-left: -4rem !important;
+  }
+  .vc-message .vc-message-bg-image .vc-name p{
+    margin-left: -4rem;
   }
 }
 @media screen and (min-width: 1200px) and (max-width: 1499.98px) {
   .vc-message .vc-message-bg-image .vc-photo-and-name {
     margin-left: -4rem !important;
+  }
+  .vc-message .vc-message-bg-image .vc-name p{
+    margin-left: -4rem;
   }
    /* faculty start */
    .faculty-members .title {
@@ -1229,24 +1318,19 @@ font-size: 29px;
   .faculty-gallery .title {
     font-size: 30px;
   }
-  /* .faculty-about-section .about {
-    margin-top: 8rem;
-  }
-  .faculty-about-section .about h2{
-    font-size: 35px;
-  }
-  .faculty-about-section .person{
-    margin-top: -0rem;
-    margin-bottom: 32rem;
-  } */
-  /* faculty end */
 }
 @media screen and (min-width: 992px) and (max-width: 1199.98px) {
   .welcome-butex .butex-content .butex-circle-img {
     width: 90%;
   }
+  .welcome-butex .butex-content .right p{
+    -webkit-line-clamp: 20;
+  }
   .vc-message .vc-message-bg-image .vc-photo-and-name {
     margin-left: -4rem !important;
+  }
+  .calendar-location .location .title{
+    font-size: 30px;
   }
     /* faculty start */
     .faculty-members .title {
@@ -1255,21 +1339,13 @@ font-size: 29px;
     .faculty-gallery .title {
       font-size: 30px;
     }
-    /* .faculty-about-section .about {
-      margin-top: 4.5rem;
-    }
-    .faculty-about-section .about h2{
-      font-size: 30px;
-    }
-    .faculty-about-section .person{
-      margin-top: -0rem;
-      margin-bottom: 28rem;
-    } */
-    /* faculty end */
 }
 @media screen and (min-width: 768px) and (max-width: 991.98px) {
   .welcome-butex .butex-content .butex-circle-img {
     width: 90%;
+  }
+  .welcome-butex .butex-content .right p{
+    -webkit-line-clamp: 20;
   }
   .navbar-toggler-btn {
     margin-left: 16rem;
@@ -1285,6 +1361,9 @@ font-size: 29px;
     margin: 10px;
     width: 45%;
   }
+  .calendar-location .location .location-bg-image {
+    min-height: 400px;
+  }
    /* faculty start */
    .faculty-members .title {
     font-size: 30px;
@@ -1292,24 +1371,6 @@ font-size: 29px;
   .faculty-gallery .title {
     font-size: 30px;
   }
-  /* .faculty-about-section .about h2{
-    font-size: 35px;
-  }
-  .faculty-about-section .person{
-    margin-top: -0rem;
-    margin-bottom: 28rem;
-  }
-  .faculty .faculty-header-main .title{
-    font-size: 18px;
-  }
-  .faculty .faculty-header-main .main-logo{
-    width: 60px;
-    height: 60px;
-  }
-  .faculty .faculty-header-main .title{
-    font-size: 20px;
-  } */
-  /* faculty end */
 }
 @media screen and (min-width: 576px) and (max-width: 767.98px) {
   .welcome-butex .butex-content .butex-circle-img {
@@ -1330,6 +1391,13 @@ font-size: 29px;
   .navbar-toggler-btn {
     margin-left: 6rem;
   }
+  .vc-message .vc-message-bg-image .vc-photo-and-name {
+    margin-left: -0rem !important;
+  }
+  .vc-message .vc-message-bg-image .vc-photo-and-name .vc-photo {
+    display: flex;
+    justify-content: center;
+  }
   .butext-notice .butext-notice-first-last-li-width {
     width: 45%;
     margin: 10px;
@@ -1342,6 +1410,16 @@ font-size: 29px;
     width: 180px; 
     height: 180px; 
   }
+  .campus-facilities .title {
+    font-size: 25px;
+    -webkit-line-clamp: 1;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .calendar-location .location .location-bg-image {
+    min-height: 400px;
+  }
   .affiliated-container .title {
     font-size: 28px;
   }
@@ -1352,30 +1430,23 @@ font-size: 29px;
   .faculty-gallery .title {
     font-size: 30px;
   }
-  /* .faculty-about-section .about h2{
-    font-size: 25px;
-  }
-  .faculty-about-section .person{
-    margin-top: -0rem;
-    margin-bottom: 28rem;
-  }
-  .faculty .faculty-header-main .main-logo{
-    width: 60px;
-    height: 60px;
-  }
-  .faculty .faculty-header-main .title{
-    font-size: 20px;
-    max-width: 350px;
-  } */
-  /* faculty end */
 }
 @media screen and (min-width: 376px) and (max-width: 575.98px) {
+  .welcome-butex .butex-content .butex-title {
+    font-size: 30px;
+  }
   .welcome-butex .butex-content .butex-circle-img {
     left: 10%;
     width: 70%;
   }
+  .welcome-butex .butex-content .right p{
+    -webkit-line-clamp: 10;
+  }
   .navbar-toggler-btn {
     margin-left: 8rem;
+  }
+  .vc-message .vc-message-bg-image .title {
+    font-size: 35px;
   }
   .vc-message .vc-message-bg-image .vc-photo-and-name {
     margin-left: -0rem !important;
@@ -1390,11 +1461,25 @@ font-size: 29px;
   .butext-notice .butext-notice-middle-li-width {
     width: 100%;
   }
-
+  .campus-facilities .title {
+    font-size: 20px;
+    -webkit-line-clamp: 1;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
   .affiliated-container .title {
     font-size: 20px;
   }
- 
+  .calendar-location .location .title{
+    font-size: 30px;
+  }
+   .calendar-location .calendar .title {
+    font-size: 25px;
+  }
+  .calendar-location .location .location-bg-image {
+    min-height: 350px;
+  }
     /* faculty start */
     .faculty-members .title {
       font-size: 30px;
@@ -1402,35 +1487,20 @@ font-size: 29px;
     .faculty-gallery .title {
       font-size: 30px;
     }
-    /* .faculty-about-section .about h2{
-      font-size: 25px;
-    }
-    .faculty-about-section .person{
-      margin-top: -0rem;
-      margin-bottom: 28rem;
-    }
-    .list-of-departments .title {
-      font-size: 25px;
-      -webkit-line-clamp: 1;
-      display: -webkit-box;
-      -webkit-box-orient: vertical;
-      overflow: hidden;
-    }
-    .faculty .faculty-header-main .main-logo{
-      width: 60px;
-      height: 60px;
-    }
-    .faculty .faculty-header-main .title{
-      font-size: 16px;
-      max-width: 200px;
-    } */
-    /* faculty end */
-
-}
+  }
 @media screen and (min-width: 320px) and (max-width: 375.98px) {
+  .welcome-butex .butex-content .butex-title {
+    font-size: 30px;
+  }
   .welcome-butex .butex-content .butex-circle-img {
     left: 1%;
     width: 90%;
+  }
+  .welcome-butex .butex-content .right p{
+    -webkit-line-clamp: 10;
+  }
+  .vc-message .vc-message-bg-image .title {
+    font-size: 35px;
   }
   .vc-message .vc-message-bg-image .vc-photo-and-name {
     margin-left: -0rem !important;
@@ -1447,6 +1517,22 @@ font-size: 29px;
   }
   .affiliated-container .title {
     font-size: 16px;
+  }
+  .campus-facilities .title {
+    font-size: 20px;
+    -webkit-line-clamp: 1;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .calendar-location .calendar .title {
+    font-size: 25px;
+  }
+  .calendar-location .location .title{
+    font-size: 30px;
+  }
+  .calendar-location .location .location-bg-image {
+    min-height: 350px;
   }
   /* faculty start */
   .faculty-members .title {
@@ -1468,13 +1554,6 @@ font-size: 29px;
     display: -webkit-box;
     -webkit-box-orient: vertical;
     overflow: hidden;
-  }
-  .recent-news-notice-events .recent-news .title{
-    /* font-size: 30px;
-    -webkit-line-clamp: 1;
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    overflow: hidden; */
   }
   .recent-news-notice-events .recent-news .date{
     background-color: #0A9090; 
