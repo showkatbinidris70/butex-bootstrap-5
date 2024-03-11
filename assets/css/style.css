@@ -24,6 +24,8 @@ h6 {
 body {
   box-sizing: border-box;
   background-color: rgba(219, 217, 217, 0.61);
+  font-size: 16px;
+  font-family: Inter;
 }
 
 :root {
@@ -49,8 +51,7 @@ body {
   --bg_mute-third: #464646;
 }
 /* header start */
-.topnav {
-}
+
 /* scrolling css start */
 .reveal {
   position: relative;
@@ -152,9 +153,17 @@ body {
   font-family: "Inria Sans";
   font-size: 20px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: bold;
   letter-spacing: 2px;
-  min-height: 51px;
+  background-color: #0A9090; 
+  width: 250px;
+  /* min-height: 51px; */
+}
+.flash-news marquee{
+  font-size: 14px;
+  font-weight: normal;
+  font-family: Inter;
+  color: white;
 }
 .flash-news .flash-news-right {
   background-color: var(--bg_orange-secondary);
@@ -240,7 +249,7 @@ a:link {
 }
 .welcome-butex .butex-content .butex-title {
   color: #0a9090;
-  text-align: center;
+  text-align: start;
   text-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
   font-family: Almendra;
   font-size: 40px;
@@ -248,6 +257,7 @@ a:link {
   font-weight: 700;
   line-height: normal;
   letter-spacing: 4px;
+  border-bottom: 5px solid #C84545;
 }
 .welcome-butex .butex-content .left img {
   /* background: #0b9d9d; */
@@ -279,12 +289,13 @@ a:link {
   width: 21%;
 }
 .butext-notice .butext-notice-bg-img {
-  background-color: rgba(43, 37, 5, 0.9);
+  /* background-color: rgba(43, 37, 5, 0.9); */
+  background-color: #2B2505;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   min-height: 100%;
-  background: url("/assets/images/butex-nitice-bg-img.png") rgb(43, 37, 5, 0.9);
+  background: url("/assets/images/butex-nitice-bg-img.png") #2B2505;
   background-size: cover;
   background-blend-mode: multiply;
 }
@@ -307,6 +318,24 @@ a:link {
   background-position: center;
   background-size: cover;
 }
+.mission-vission .vission-card{
+  background-color: #c84545;
+}
+.mission-vission .vission-card:hover{
+  background-color: #000000d7;
+}
+.mission-vission .mission-card{
+  background-color: #008686;
+}
+.mission-vission .mission-card:hover{
+  background-color: #000000d7;
+}
+.mission-vission .objective-card{
+  background-color: #0B5050;
+}
+.mission-vission .objective-card:hover{
+  background-color: #000000d7;
+}
 .mission-vission .title {
   color: #fff;
   text-align: center;
@@ -327,7 +356,6 @@ a:link {
   font-weight: 700;
   line-height: 20px;
   letter-spacing: 1.76px;
-  max-width: 250px;
 }
 /* mission-vission end */
 /* new-events start */
@@ -404,12 +432,18 @@ a:link {
   background-position: center;
   background-size: cover;
 }
+.vc-message .vc-message-bg-image .vc-message-text{
+  -webkit-line-clamp: 12;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
 .vc-message .vc-message-bg-image p {
   color: #fff;
   text-align: justify;
   font-style: normal;
   font-family: Calistoga;
-  font-size: 20px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 20px;
@@ -435,6 +469,7 @@ a:link {
   font-weight: 700;
   line-height: normal;
   letter-spacing: 4px;
+  border-bottom: 5px solid #fff;
 }
 /* vc-message end */
 /* campus-facilities start */
@@ -452,6 +487,7 @@ a:link {
   display: -webkit-box;
   -webkit-box-orient: vertical;
   overflow: hidden;
+  border-bottom: 5px solid #C84545;
 }
 .campus-facilities .card p {
   background: rgba(16, 120, 120, 0.9);
@@ -464,6 +500,119 @@ a:link {
   font-weight: 800;
   line-height: normal;
   letter-spacing: 1.4px;
+}
+/* Circle */
+.hover15 figure {
+  position: relative;
+}
+
+.hover15 figure::before {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 2;
+  display: block;
+  content: "";
+  width: 0;
+  height: 0;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 100%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  opacity: 0;
+}
+
+.hover15 figure:hover::before {
+  -webkit-animation: circle 0.75s;
+  animation: circle 0.75s;
+}
+
+.column {
+  margin: 0px 0px 0;
+  padding: 0;
+}
+
+.column:last-child {
+  padding-bottom: 60px;
+}
+
+.column::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.column div {
+  position: relative;
+  float: left;
+  margin: 0 0 0 25px;
+  padding: 0;
+}
+
+.column div:first-child {
+  margin-left: 0;
+}
+
+.column div span {
+  position: absolute;
+  bottom: -20px;
+  left: 0;
+  z-index: -1;
+  display: block;
+  width: 300px;
+  margin: 0;
+  padding: 0;
+  color: #444;
+  font-size: 18px;
+  text-decoration: none;
+  text-align: center;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  opacity: 0;
+}
+
+figure {
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  overflow: hidden;
+}
+
+figure:hover + span {
+  bottom: -36px;
+  opacity: 1;
+}
+
+@-webkit-keyframes circle {
+  0% {
+    opacity: 1;
+  }
+
+  40% {
+    opacity: 1;
+  }
+
+  100% {
+    width: 200%;
+    height: 200%;
+    opacity: 0;
+  }
+}
+
+@keyframes circle {
+  0% {
+    opacity: 1;
+  }
+
+  40% {
+    opacity: 1;
+  }
+
+  100% {
+    width: 200%;
+    height: 200%;
+    opacity: 0;
+  }
 }
 /* campus-facilities end */
 /* butext-prospectus start */
@@ -577,16 +726,26 @@ a:link {
     lightgray 50% / cover no-repeat;
   box-shadow: 3px 3px 4px 0px #0b9d9d;
 }
+.department-section .department-section-card .card-body {
+  background-color: #BA3B3B;
+}
+.department-section .department-section-card .card-body:hover {
+ background-color: #000000c0;
+}
 .department-section .department-section-card .card-body .card-title {
   color: #fff;
   text-align: center;
   text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.25);
   font-family: Almarai;
-  font-size: 16px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
   letter-spacing: 1.6px;
+  -webkit-line-clamp: 1;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 .department-section .department-section-card .card-body .card-text {
   color: #fff;
@@ -597,6 +756,10 @@ a:link {
   font-weight: 400;
   line-height: normal;
   letter-spacing: 1.4px;
+  -webkit-line-clamp: 2;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 .department-section .department-section-card .card-body .btn {
   color: #fff;
@@ -616,11 +779,49 @@ a:link {
   background-position: center;
   background-size: cover;
   min-height: 100%;
-  background: url("/assets/images/Rectangle-93.png") rgb(219, 204, 204);
+  background: url("/assets/images/Rectangle-93.png") #0000007e;
   background-size: cover;
   background-blend-mode: multiply;
 }
+.butex-counter .butex-counter-slider .card p{
+  -webkit-line-clamp: 1;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
 .butex-counter button {
+  margin: 0;
+  padding: 0;
+  background: none;
+  border: none;
+  border-radius: 0;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.butex-counter .slide-arrow {
+  position: absolute;
+  top: 45%;
+  margin-top: -15px;
+}
+.butex-counter .prev-arrow {
+  left: -30px;
+  width: 50px;
+  height: 80px;
+  background-image: url('/assets/images/Rectangle-95-1.png');
+  background-repeat: no-repeat;
+}
+.butex-counter .next-arrow {
+  right: -30px;
+  width: 50px;
+  height: 80px;
+  background-image: url('/assets/images/Rectangle-96-1.png');
+  background-repeat: no-repeat;
+}
+
+
+/* .butex-counter button {
   margin: 0;
   padding: 0;
   background: none;
@@ -653,7 +854,7 @@ a:link {
   border-left: 15px solid #0a9090;
   border-top: 10px solid transparent;
   border-bottom: 10px solid transparent;
-}
+} */
 /* butext-counter end */
 /* academic calender start */
 .calendar-location .calendar .title {
@@ -839,6 +1040,11 @@ a:link {
   font-weight: 700;
   line-height: normal;
   letter-spacing: 4px;
+  border-bottom: 5px solid #078484;
+  -webkit-line-clamp: 1;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 .affiliated-card .card {
   padding: 12px 0 16px 0;
@@ -1367,6 +1573,9 @@ font-size: 29px;
   }
   .calendar-location .location .location-bg-image {
     min-height: 400px;
+  }
+  .vc-message .vc-message-bg-image .vc-message-text{
+    -webkit-line-clamp: 8;
   }
    /* faculty start */
    .faculty .faculty-header-main .main-logo{
