@@ -345,7 +345,7 @@ $(".slick", ".recent-events-slider").slick({
   verticalSwiping: true,
   autoplay: true,
   autoplaySpeed: 5000,
-  slidesToShow: 5,
+  slidesToShow: 6,
   slidesToScroll: 1,
   prevArrow: $(".prev"),
   nextArrow: $(".next"),

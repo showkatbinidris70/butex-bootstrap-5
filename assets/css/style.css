@@ -728,7 +728,7 @@ figure:hover + span {
     lightgray 50% / cover no-repeat;
   box-shadow: 3px 3px 4px 0px #0b9d9d;
 }
-.department-section .department-section-card .card-body {
+epartment-section .department-section-card .card-body {
   background-color: #BA3B3B;
 }
 .department-section .department-section-card .card-body:hover {
@@ -1352,6 +1352,9 @@ font-family: Almarai;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
+.list-of-departments .card-img-top {
+  min-height: 400px;
+ }
 .list-of-departments .card-bottom{
   background-color: #BA3B3B;
   color: #fff;
@@ -1366,6 +1369,87 @@ font-family: Almarai;
 }
 /* list-of-departments end */
 /* recent-news-notice-events start */
+
+/* ------------------------------------ */
+.recent-news{
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 100%;
+  background: url("/assets/images/Rectangle-139.png");
+  background-position: right top, center, right bottom;
+    background-repeat: no-repeat;
+    padding-right: 1rem;
+}
+.recent-news .title{
+  font-family: Almendra;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 4px;
+  color: #c84545;
+  border-bottom: 5px solid #c84545; 
+}
+.recent-news .recent-news-slider .date{
+  background-color: #0A9090; 
+  width: 20%;
+}
+.recent-news .card{
+  border-bottom: 3px solid #0A9090; border-right: 3px solid #0A9090;
+}
+.recent-news .card .card-body:hover{
+  background-color: #0000001e;
+}
+.recent-news .card img{
+  max-width: 871px;
+  max-height: 337px;
+}
+.recent-news .date{
+  background-color: #0A9090; 
+  width: 20%;
+}
+/* ******************************************************************************************************** */
+.recent-notice-and-events{
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
+  min-height: 100%;
+  background: url("/assets/images/Rectangle-140.png");
+  background-position: right top, center, right bottom;
+    background-repeat: no-repeat;
+    padding-right: 1rem;
+}
+.recent-notice-and-events .notice-board .title{
+  font-family: Almendra;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 4px;
+  color: #fff;
+  border-bottom: 5px solid #fff; 
+}
+.recent-notice-and-events .notice-board .nav-link {
+  color: #fff;
+}
+.recent-notice-and-events .notice-board .nav-link.active {
+  background-color: #F0E70A;
+  color: #c84545;
+}
+.recent-notice-and-events .recent-events .title{
+  font-family: Almendra;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 4px;
+  color: #fff;
+  border-bottom: 5px solid #fff; 
+  max-width: 400px;
+}
+/* ------------------------------------ */
+
 .recent-news-notice-events{
   background-repeat: no-repeat;
   background-position: center;
@@ -1389,6 +1473,9 @@ font-family: Almarai;
 }
 .recent-news-notice-events .recent-news .card{
   border-bottom: 3px solid #0A9090; border-right: 3px solid #0A9090;
+}
+.recent-news-notice-events .recent-news .card .card-body:hover{
+  background-color: #0000001e;
 }
 .recent-news-notice-events .recent-news .card img{
   max-width: 871px;
