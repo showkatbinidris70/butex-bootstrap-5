@@ -310,6 +310,15 @@ a:link {
   line-height: normal;
   letter-spacing: 4px;
 }
+.butext-notice .butext-notice-bg-img .nav-link.active {
+  border-bottom: 2px solid red;
+}
+.butext-notice .butext-notice-bg-img .table .table-header {
+  overflow: hidden;
+  display: -webkit-box; 
+  -webkit-line-clamp: 1; 
+  -webkit-box-orient: vertical;
+}
 /* mission-vission start */
 .mission-vission {
   background-color: rgba(43, 37, 5, 0.8);
