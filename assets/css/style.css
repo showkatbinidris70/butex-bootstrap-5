@@ -319,6 +319,31 @@ a:link {
   -webkit-line-clamp: 1; 
   -webkit-box-orient: vertical;
 }
+.butext-notice .butext-notice-bg-img .notice-board-doc-title{
+  background-color: #D9D9D9;
+  overflow: hidden;
+  display: -webkit-box; 
+  -webkit-line-clamp: 1; 
+  -webkit-box-orient: vertical;
+  line-height: 56px;
+}
+.butext-notice .butext-notice-bg-img .notice-board-doc-icon{
+  width: 10%;
+}
+.butext-notice .butext-notice-bg-img .nav-item{
+  overflow: hidden;
+  display: -webkit-box; 
+  -webkit-line-clamp: 1; 
+  -webkit-box-orient: vertical;
+  line-height: 35px;
+}
+.butext-notice .butext-notice-bg-img .notice-board-date{
+  background-color: #0B9D9D;
+  line-height: 24px;
+}
+.butext-notice .butext-notice-bg-img .notice-board-tab-width{
+  width: 19%; background-color: #D9D9D9;
+}
 /* mission-vission start */
 .mission-vission {
   background-color: rgba(43, 37, 5, 0.8);
@@ -1679,6 +1704,7 @@ font-size: 29px;
   .vc-message .vc-message-bg-image .vc-name p{
     margin-left: -4rem;
   }
+  
 }
 @media screen and (min-width: 1200px) and (max-width: 1499.98px) {
   .vc-message .vc-message-bg-image .vc-photo-and-name {
@@ -1686,6 +1712,9 @@ font-size: 29px;
   }
   .vc-message .vc-message-bg-image .vc-name p{
     margin-left: -4rem;
+  }
+  .butext-notice .butext-notice-bg-img .notice-board-tab-width{
+    width: 18.8%; background-color: #D9D9D9;
   }
    /* faculty start */
    .faculty-members .title {
@@ -1715,6 +1744,12 @@ font-size: 29px;
     top: 6054px;
     align-self: center;
     align-content: center;
+  }
+  .butext-notice .butext-notice-bg-img .notice-board-doc-icon{
+    width: 14%;
+  }
+  .butext-notice .butext-notice-bg-img .notice-board-tab-width{
+    width: 18.7%; background-color: #D9D9D9;
   }
   /* faculty start */
   .faculty-members .title {
@@ -1759,6 +1794,12 @@ font-size: 29px;
   }
   .vc-message .vc-message-bg-image .vc-message-text{
     -webkit-line-clamp: 8;
+  }
+  .butext-notice .butext-notice-bg-img .notice-board-doc-icon{
+    width: 18%;
+  }
+  .butext-notice .butext-notice-bg-img .notice-board-tab-width{
+    width: 18.2%; background-color: #D9D9D9;
   }
    /* faculty start */
    .faculty .faculty-header-main .main-logo{
@@ -1835,6 +1876,12 @@ font-size: 29px;
    .butex-counter .next-arrow {
      display: none !important;
    }
+   .butext-notice .butext-notice-bg-img .notice-board-doc-icon{
+    width: 25%;
+  }
+  .butext-notice .butext-notice-bg-img .notice-board-tab-width{
+    width: 17.65%; background-color: #D9D9D9;
+  }
    /* faculty start */
    .faculty .faculty-header-main .main-logo{
     width: 60px;
@@ -1905,6 +1952,19 @@ font-size: 29px;
    .butex-counter .next-arrow {
      display: none !important;
    }
+   .butext-notice .butext-notice-bg-img .notice-board-doc-icon{
+    width: 18%;
+  }
+  .butext-notice .butext-notice-bg-img .notice-board-date{
+    background-color: #0B9D9D;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .butext-notice .butext-notice-bg-img .notice-board-tab-width{
+    width: 18.2%; background-color: #D9D9D9;
+  }
     /* faculty start */
     .faculty .faculty-header-main .main-logo{
       width: 50px;
@@ -1980,6 +2040,12 @@ font-size: 29px;
   }
   .butex-counter .next-arrow {
     display: none !important;
+  }
+  .butext-notice .butext-notice-bg-img .notice-board-doc-icon{
+    width: 25%;
+  }
+  .butext-notice .butext-notice-bg-img .notice-board-tab-width{
+    width: 17.2%; background-color: #D9D9D9;
   }
   /* faculty start */
   .faculty-members .title {
