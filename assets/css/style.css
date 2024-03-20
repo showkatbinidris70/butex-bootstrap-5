@@ -341,8 +341,17 @@ a:link {
   background-color: #0B9D9D;
   line-height: 24px;
 }
+.butext-notice .butext-notice-bg-img .notice-board-tab-width-first{
+  width: 20%; 
+  background-color: #0B9D9D;
+}
 .butext-notice .butext-notice-bg-img .notice-board-tab-width{
   width: 19%; background-color: #D9D9D9;
+}
+.butext-notice .butext-notice-bg-img .notice-board-tab-width-last{
+  width: 20%; 
+  background-color: #D9D9D9;
+  margin-left: 4px;
 }
 /* mission-vission start */
 .mission-vission {
@@ -1879,8 +1888,21 @@ font-size: 29px;
    .butext-notice .butext-notice-bg-img .notice-board-doc-icon{
     width: 25%;
   }
+  .butext-notice .butext-notice-bg-img .notice-board-tab-width-first{
+    width: 45%; 
+    background-color: #0B9D9D;
+    margin-top: 5px;
+    margin-left: 5px;
+  }
   .butext-notice .butext-notice-bg-img .notice-board-tab-width{
-    width: 17.65%; background-color: #D9D9D9;
+    width: 45%; 
+    background-color: #D9D9D9;
+    margin-top: 5px;
+  }
+  .butext-notice .butext-notice-bg-img .notice-board-tab-width-last{
+    width: 45%; 
+    background-color: #D9D9D9;
+    margin-top: 5px;
   }
    /* faculty start */
    .faculty .faculty-header-main .main-logo{
@@ -1962,8 +1984,21 @@ font-size: 29px;
     align-items: center;
     justify-content: center;
   }
+  .butext-notice .butext-notice-bg-img .notice-board-tab-width-first{
+    width: 45%; 
+    background-color: #0B9D9D;
+    margin-top: 5px;
+    margin-left: 5px;
+  }
   .butext-notice .butext-notice-bg-img .notice-board-tab-width{
-    width: 18.2%; background-color: #D9D9D9;
+    width: 45%; 
+    background-color: #D9D9D9;
+    margin-top: 5px;
+  }
+  .butext-notice .butext-notice-bg-img .notice-board-tab-width-last{
+    width: 45%; 
+    background-color: #D9D9D9;
+    margin-top: 5px;
   }
     /* faculty start */
     .faculty .faculty-header-main .main-logo{
@@ -2041,11 +2076,22 @@ font-size: 29px;
   .butex-counter .next-arrow {
     display: none !important;
   }
-  .butext-notice .butext-notice-bg-img .notice-board-doc-icon{
-    width: 25%;
+
+  .butext-notice .butext-notice-bg-img .notice-board-tab-width-first{
+    width: 45%; 
+    background-color: #0B9D9D;
+    margin-top: 5px;
+    margin-left: 5px;
   }
   .butext-notice .butext-notice-bg-img .notice-board-tab-width{
-    width: 17.2%; background-color: #D9D9D9;
+    width: 45%; 
+    background-color: #D9D9D9;
+    margin-top: 5px;
+  }
+  .butext-notice .butext-notice-bg-img .notice-board-tab-width-last{
+    width: 45%; 
+    background-color: #D9D9D9;
+    margin-top: 5px;
   }
   /* faculty start */
   .faculty-members .title {
